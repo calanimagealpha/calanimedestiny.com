@@ -1,0 +1,395 @@
+/* Colors */
+$ad-yellow: #ffd96f;
+$ad-blue: #8890b8;
+$ad-dark-brown: #4b3c36;
+
+/* Other standard things */
+/** I am changing the container width from 1000 to 960 and 
+ *  there is very little you can do to stop me.
+ */
+$width: 960px;
+$half-width: 480px;
+$hero-width: $width * 1.5;
+$padding: 20px;
+
+@mixin transition-duration($duration) {
+	-webkit-transition-duration: $duration;
+	-moz-transition-duration: $duration;
+	-o-transition-duration: $duration;
+}
+
+body {
+    font-family: "Marvel", Helvetica, Arial, sans-serif;
+    margin: 0;
+
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	background-image: url("stripes.png");
+}
+
+.container {
+	text-align: left;
+	// min-height: 85%;
+	// margin: 0px 10% 0% 10%;
+	// margin: 0px 20px 0% 20px;
+        margin-left: auto;
+        margin-right: auto;
+
+	/* width: 80%; */
+    	// max-width: $width - 2*$padding;
+        max-width: $width;
+
+	background: white;
+	padding-bottom: 12px;
+	position: relative;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/*
+a:not(.button):hover {
+    @include transition-duration(.1s);
+	color: $ad-dark-brown;
+}
+*/
+
+.link {
+	color: $ad-blue;
+	font-weight: 700;
+}
+
+.clickme {
+	color:#ff737a;
+}
+#navbar-wrapper {
+	width: 100%;
+	min-height: 50px;
+	background: $ad-dark-brown;
+	z-index: 2500;
+}
+
+#navbar {
+	width: 100%;
+	max-width: $width;
+        margin-left: auto;
+        margin-right: auto;
+	min-height: 50px;
+	background: $ad-dark-brown;
+	position: relative;
+	z-index: 3000;
+	overflow: hidden;
+
+}
+
+
+
+html {
+	// max-width: $width;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+#navbar-container {
+	// margin-left: 52%;
+	margin-left: 160px;
+	float: right;
+	position: relative;
+	z-index: 3000;
+
+    .navbar-content {
+        float: left;
+        color: white;
+
+        //margin: 14px;
+        padding: 14px;
+	//display:block;
+        //margin: 2px;
+        //padding: 12px;
+        font-size: 110%;
+        position: relative;
+        z-index: 3000;
+        
+        text-transform: uppercase;
+	background: $ad-dark-brown;
+
+        &:hover {
+            @include transition-duration(.2s);
+            color: $ad-yellow;
+        }
+	a {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top:0;
+		left:0;
+		z-index: 4000;
+		font-size: 0;
+
+	}
+    }
+}
+
+
+.active {
+	color: $ad-yellow;
+}
+
+#bar {
+	width: 100%;
+	height: 4px;
+	background: $ad-yellow;
+}
+
+.hero {
+	//height: 539px;
+	height: 512 - 54px;
+	// width: 100%;
+        max-width: $width;
+        margin-left: auto;
+        margin-right: auto;
+	//background-image: url("stripes.png");
+	position: relative;
+	z-index: 1000;
+	text-align: left;
+    overflow:hidden;
+}
+
+#logo {
+	position: absolute;
+	margin: 8px 0px 0px 60px;
+
+    #adlogo {
+        width: 80px;
+    }
+}
+
+#mascots-container {
+        position: relative;
+        // margin-left: 20px;
+	margin-right: auto;
+	width: 800px;
+}
+
+#mascots {
+	position: absolute;
+	float: left;
+	// width: 556px;
+	width: 100%;
+        // margin-left: 20px;
+	// margin-left:
+	// margin-left: -556px;
+	// margin-left: -45%;
+	top: -150px;
+}
+
+#banner-container {
+	position: relative;
+	// margin-left: 50%;
+	// width: 580px;
+	// width: 50%;
+	// margin-left: $width/2;
+    margin:5px;
+    padding:5px;
+    background-color:rgba(255,255,255,.4);
+        margin-left: auto;
+	// margin-right: 20px;
+	width: $width/2;
+}
+
+#banner {
+	//width: 580px;
+	width: $width/2;
+	// width: 50%;
+	margin-top: 30px;
+}
+
+#register-button {
+	display: block;
+	//width: 580px;
+        text-align:center;
+	width: $width/4;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	color: white;
+	font-size: 25px;
+	font-weight: 700;
+	border-radius: 12px;
+	background: $ad-yellow;
+	// width: 200px;
+    text-transform: uppercase;
+
+}
+
+#register-button:hover {
+        @include transition-duration(.2s);
+        color: $ad-dark-brown;
+}
+
+.general-button {
+	display: block;
+        text-align:center;
+	width: $width/4;
+	padding: 15px;
+	color: white;
+	font-size: 25px;
+	font-weight: 700;
+	border-radius: 12px;
+	background: $ad-yellow;
+    text-transform: uppercase;
+}
+    .general-button:hover {
+        @include transition-duration(.2s);
+        color: $ad-dark-brown;
+    }
+
+#navbar-bottom {
+	width: 100%;
+	height: 50px;
+	background: $ad-dark-brown;
+}
+
+.banner-header {
+	padding-top: 30px;
+        width: 100%;
+	// display: inline-block;
+        float: left;
+    
+   // img {
+        // width: 1000px;
+    //}
+}
+
+.caption {
+    table {
+        width: 1000px;
+        border-collapse: collapse;
+    }
+
+    td {
+        padding: 0;
+    }
+}
+
+.image-container {
+	width: 100%;
+}
+
+.caption {
+	width: 100%;
+	// margin-bottom: 20px;
+	// height: 841px;
+}
+
+.caption-content {
+	//position: static;
+	float: left;
+        // display: inline-block;
+	width: 45%;
+}
+
+.caption-text {
+	margin-left: 5%;
+        margin-right: 5%;
+	font-size: 30px;
+	color: #495075;
+}
+
+.content {
+	margin-left: 40px;
+	margin-right: 40px;
+        overflow: auto;
+}
+
+.header {
+	font-size: 40px;
+	color: #495075;
+	font-weight: 700;
+	padding: 14px 0px 0px 0px;
+}
+
+.subheader {
+	font-size: 30px;
+	color: $ad-blue;
+	font-weight: 700;
+	// padding: 14px 0px 0px 8px;
+	padding-top: 14px;
+}
+
+.text {
+	font-size: 20px;
+	color: #495075;
+	// padding: 10px 10px 0px 10px;
+}
+
+
+table, th, td {
+	font-size: 18;
+	color: #495075;
+	padding: 5px 10px;
+}
+
+#map {
+	text-align: center;
+}
+
+#footer {
+	// position: absolute;
+	bottom: 0px;
+	width: 100%;
+	padding: 24px 0px 4px 0px;
+	color: $ad-dark-brown;
+	text-align: center;
+}
+
+#home-text {
+	display: none;
+}
+
+@media screen and (max-width: 960px) {
+	#mascots {
+		opacity: 0.6;
+		filter: alpha(opacity=60);
+	}
+}
+@media screen and (max-width: 480px) {
+#navbar-container {
+	margin: 0 auto;
+	.navbar-content {
+		width: 100%;
+		font-size: 180%;
+		padding: 24px;
+	}
+}
+#home-text {
+	display: block;
+}
+
+#mascots {
+	opacity: 0.2;
+}
+#logo {
+	display: none;
+}
+
+.caption-content {
+	width: 100%;
+}
+
+.caption-text {
+	// margin: 20px;
+	margin: 0px;
+        overflow: visible;
+}
+
+.banner-header { 
+	margin-top: 20px;
+	// margin-bottom: 10px;
+}
+
+}
