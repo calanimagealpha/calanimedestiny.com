@@ -124,23 +124,24 @@ html {
 
 #banner-container {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  style="width:50%;"
   background-color: rgba(255, 255, 255, 0.4); }
 
 #banner {
-  width: 480px;
-  margin-top: 30px; }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  width: 73%;
+  height: auto; }
 
 #register-button {
   display: block;
   text-align: center;
   width: 240px;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-  padding: 15px;
+  padding: 10px;
   color: white;
   font-size: 25px;
   font-weight: 700;
