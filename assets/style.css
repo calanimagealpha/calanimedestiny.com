@@ -72,7 +72,7 @@ html {
     position: relative;
     z-index: 3000;
     text-transform: uppercase;
-    background: #00baaf; }
+    background: #00a79d; }
     #navbar-container .navbar-content:hover {
       -webkit-transition-duration: 0.2s;
       -moz-transition-duration: 0.2s;
