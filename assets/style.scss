@@ -4,7 +4,7 @@ $ad-blue: #8890b8;
 $ad-dark-brown: #4b3c36;
 
 /* Other standard things */
-/** I am changing the container width from 1000 to 960 and 
+/** I am changing the container width from 1000 to 960 and
  *  there is very little you can do to stop me.
  */
 $width: 960px;
@@ -112,7 +112,7 @@ html {
         font-size: 110%;
         position: relative;
         z-index: 3000;
-        
+
         text-transform: uppercase;
 	background: $ad-dark-brown;
 
@@ -259,7 +259,7 @@ html {
         width: 100%;
 	// display: inline-block;
         float: left;
-    
+
    // img {
         // width: 1000px;
     //}
@@ -387,7 +387,7 @@ table, th, td {
         overflow: visible;
 }
 
-.banner-header { 
+.banner-header {
 	margin-top: 20px;
 	// margin-bottom: 10px;
 }
