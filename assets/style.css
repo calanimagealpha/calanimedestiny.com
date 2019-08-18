@@ -9,7 +9,8 @@ body {
   text-align: center;
   height: 100%;
   width: 100%;
-  background-image: url("stripes.png"); }
+  background-color: #ffeecf;
+  /*background-image: url("stripes.png");*/ }
 
 .container {
   text-align: left;
@@ -32,7 +33,7 @@ a:not(.button):hover {
 }
 */
 .link {
-  color: #8890b8;
+  color: #00c2cc;
   font-weight: 700; }
 
 .clickme {
@@ -203,28 +204,40 @@ html {
   margin-left: 5%;
   margin-right: 5%;
   font-size: 30px;
-  color: #495075; }
+  color: #00453e; }
 
 .content {
   margin-left: 40px;
   margin-right: 40px;
-  overflow: auto; }
+  overflow: auto;
+  color: #f5c181;}
 
 .header {
   font-size: 40px;
-  color: #495075;
+  color: #007065;
   font-weight: 700;
   padding: 14px 0px 0px 0px; }
 
 .subheader {
   font-size: 30px;
-  color: #8890b8;
+  color: #009e8f;
   font-weight: 700;
   padding-top: 14px; }
 
+.question {
+  font-size: 22px;
+  color: #ffac45;
+  font-weight: 700; }
+
+.largelink {
+  font-size: 22px;
+  color: #ffac45;
+  font-weight: 700;
+}
+
 .text {
   font-size: 20px;
-  color: #495075; }
+  color: #00453e; }
 
 table, th, td {
   font-size: 18;
@@ -263,7 +276,7 @@ table, th, td {
     opacity: 0.2; }
 
   #logo {
-    display: Chibi.png; }
+    display: url("Chibi.png"); }
 
   .caption-content {
     width: 100%; }
