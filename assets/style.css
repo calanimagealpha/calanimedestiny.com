@@ -152,6 +152,7 @@ html {
   background: #00baaf;
   text-transform: uppercase; }
 
+/*main page button */
   #register-buttonn {
     display: block;
     text-align: center;
@@ -160,14 +161,21 @@ html {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    color: white;
-    font-size: 35px;
+    color: Tomato;
+    font-size: 40px;
     font-weight: 700;
     border-radius: 12px;
     background: #00baaf;
     z-index: 40001;
     margin-top:-100px;
     text-transform: uppercase; }
+
+/*home page button */
+#register-buttonn:hover {
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  color: teal; }
 
 #register-button:hover {
   -webkit-transition-duration: 0.2s;
