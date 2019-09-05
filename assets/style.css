@@ -33,7 +33,7 @@ a:not(.button):hover {
 }
 */
 .link {
-  color: #00c2cc;
+  color: #1bbcc4;
   font-weight: 700; }
 
 .clickme {
@@ -212,11 +212,12 @@ html {
   float: left; }
 
 .caption table {
-  width: 1000px;
+  width: auto;
   border-collapse: collapse; }
+
 .caption td {
   color: teal;
-  padding: 0; }
+  padding: 10px; }
 
 .image-container {
   width: 100%; }
@@ -238,7 +239,8 @@ html {
   margin-left: 40px;
   margin-right: 40px;
   overflow: auto;
-  color: #f5c181;}
+  color: #f5c181;
+}
 
 .header {
   font-size: 40px;
@@ -250,12 +252,14 @@ html {
   font-size: 30px;
   color: #009e8f;
   font-weight: 700;
-  padding-top: 14px; }
+  padding-top: 14px;
+}
 
 .question {
   font-size: 22px;
   color: #f0a20e;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 .largelink {
   font-size: 22px;
@@ -267,10 +271,29 @@ html {
   font-size: 20px;
   color: #00453e; }
 
-table, th, td {
+table, th {
+  margin: 0 auto;
+  width: auto;
   font-size: 18;
-  color: #495075;
-  padding: 5px 10px; }
+  color: teal;
+  /*padding: 5px 10px; */
+  border: 1px solid yellow;
+}
+
+tr {
+  padding: 0px;
+}
+
+td {
+  font-size: 22;
+  color: #007065;
+  padding: 10px;
+  padding-right: 15px;
+}
+
+td:hover {
+  color: #f5c181;
+}
 
 #map {
   text-align: center; }
