@@ -215,6 +215,7 @@ html {
   width: 1000px;
   border-collapse: collapse; }
 .caption td {
+  color: teal;
   padding: 0; }
 
 .image-container {
