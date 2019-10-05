@@ -255,6 +255,29 @@ html {
   padding-top: 14px;
 }
 
+
+.category-header {
+  margin-left: 40px;
+  font-size: 25px;
+  color: #1bbcc4#ffac45;
+  font-weight: 700;
+  padding-top: 14px;
+}
+
+.guest-header {
+  margin-left: 80px;
+  font-size: 23px;
+  color: #1bbcc4;
+  font-weight: 700;
+  padding-top: 14px;
+}
+
+.guest-text {
+  margin-left: 100px;
+  font-size: 20px;
+  color: #00453e;
+}
+
 .question {
   font-size: 22px;
   color: #f0a20e;
