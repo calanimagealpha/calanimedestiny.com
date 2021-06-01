@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Anime Destiny</title>
-    <meta name="viewport" content="width=480" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href='https://fonts.googleapis.com/css?family=Marvel:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="../assets/style.css" />
     <link rel="icon" type="image/png" href="../assets/Chibi.png"/>
@@ -43,6 +43,24 @@
             </div>
         </div>
     </div>
+
+    <div id="mainSidebar" class="mobile-sidebar">
+        <a href="javascript:void(0)" class="closebtn" style="color:white" onclick="closeNav()">&times;</a>
+        <a href="/">Home</a>
+        <a href="registration/">Registration</a>
+        <a href="location/">Location</a>
+        <a href="programming/">Programming</a>
+        <a href="exhibitors/">Exhibitors</a>
+        <a href="contact/">Contact</a>
+    </div>
+      
+    <div id="sidebarSlidContent">
+        <button id="sidebar-open-button" onclick="openNav()">&#9776;</button>
+        <div id="logo" style="padding-left: 10px; top: 10px;">
+            <a href="../"><img id="adlogo" src="../assets/logo.png"></a>
+        </div>
+    </div>
+
     <div id="bar"></div>
     <div class="container">
         <div class="content">
@@ -127,6 +145,7 @@
     ga('create', 'UA-630634-7', 'auto');
     ga('send', 'pageview');
     </script>
+    <script type="text/javascript" src="../scripts/sidebarButton.js"></script>
 </body>
 
 </html>

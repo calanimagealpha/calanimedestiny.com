@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Anime Destiny</title>
-    <meta name="viewport" content="width=480" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href='https://fonts.googleapis.com/css?family=Marvel:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href="assets/style.css?version=0.1" rel="stylesheet" type="text/css">
     <link href="assets/Chibi.png" rel="icon" type="image/png">
@@ -25,6 +25,7 @@
 <body>
     <header>
     </header>
+    <!--Destktop Navbar-->
     <div id="navbar-wrapper">
     <div id="navbar">
         <div id="logo">
@@ -66,6 +67,24 @@
     </div>
     </div>
 
+    <!--Mobile Navbar-->
+    <div id="mainSidebar" class="mobile-sidebar">
+        <a href="javascript:void(0)" class="closebtn" style="color:white" onclick="closeNav()">&times;</a>
+        <a href="/">Home</a>
+        <a href="registration/">Registration</a>
+        <a href="location/">Location</a>
+        <a href="programming/">Programming</a>
+        <a href="exhibitors/">Exhibitors</a>
+        <a href="contact/">Contact</a>
+    </div>
+      
+    <div id="sidebarSlidContent">
+        <button id="sidebar-open-button" onclick="openNav()">&#9776;</button>
+        <div id="logo" style="padding-left: 10px; top: 10px;">
+            <a href="./"><img id="adlogo" src="assets/logo.png"></a>
+        </div>
+    </div>
+
     <div id="bar"></div>
 
     <div class="hero-image">
@@ -75,7 +94,7 @@
             <h1>Our Theme for this year is Idols!</h1>
             <h2>Date: Nov. 7</h2>
             <!-- <h2>Time: 10AM - 8PM</h2> -->
-            <h2>Location: CAA <a href="https://www.youtube.com/channel/UCqwtuMg539jVEtTYRrtD6kw"; style="color:DodgerBlue;"> Youtube </a>and Twitch!</h2>
+            <h2>Location: CAA <a href="https://www.youtube.com/channel/UCqwtuMg539jVEtTYRrtD6kw"; style="color:DodgerBlue;"> Youtube </a>and <a href="https://www.twitch.tv/cal_animage_alpha"; style="color:DodgerBlue;">Twitch!</a></h2>
             <!-- <a class="button" id="register-buttonn" href="https://forms.gle/DWXFckyo9CKmQw997">
                 Click here if interested in holding a panel at AD!
             </a> -->
@@ -152,5 +171,6 @@
         ga('create', 'UA-630634-7', 'auto');
         ga('send', 'pageview');
     </script>
+    <script type="text/javascript" src="scripts/sidebarButton.js"></script>
 </body>
 </html>
