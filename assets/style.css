@@ -3,13 +3,17 @@
 /** I am changing the container width from 1000 to 960 and
  *  there is very little you can do to stop me.
  */
+@font-face {
+    font-family: "Cyntho Pro Regular";
+    src: url("CynthoPro-Regular.woff");}
+
 body {
-  font-family: "Marvel", Helvetica, Arial, sans-serif;
+  font-family: "Cyntho Pro Regular";
   margin: 0;
   text-align: center;
   height: 100%;
   width: 100%;
-  background-color: #ffeecf;
+  background-color: #eeeeee;
   /*background-image: url("stripes.png");*/ }
 
 .container {
@@ -42,7 +46,7 @@ a:not(.button):hover {
 #navbar-wrapper {
   width: 100%;
   min-height: 50px;
-  background: #00a79d;
+  background: #3b7ea1;
   z-index: 2500; }
 
 #navbar {
@@ -51,7 +55,7 @@ a:not(.button):hover {
   margin-left: auto;
   margin-right: auto;
   min-height: 50px;
-  background: #00a79d;
+  background: #3b7ea1;
   position: relative;
   z-index: 3000;
   overflow: hidden; }
@@ -69,11 +73,11 @@ html {
     float: left;
     color: white;
     padding: 14px;
-    font-size: 110%;
+    font-size: 100%;
     position: relative;
     z-index: 3000;
     text-transform: uppercase;
-    background: #00a79d; }
+    background: #3b7ea1; }
     #navbar-container .navbar-content:hover {
       transition-duration: 0.2s;
       -webkit-transition-duration: 0.2s;
@@ -92,14 +96,14 @@ html {
  /* The mobile sidebar menu */
 .mobile-sidebar {
   height: 100%;
-  width: 0; 
-  position: fixed; 
-  z-index: 1; 
+  width: 0;
+  position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
-  background-color: #00a79d;
-  overflow-x: hidden; 
-  padding-top: 15px; 
+  background-color: #3b7ea1;
+  overflow-x: hidden;
+  padding-top: 15px;
   transition: 0.5s; }
 
 .mobile-sidebar a {
@@ -123,12 +127,12 @@ html {
 
 #sidebarSlidContent {
   transition: margin-left .5s;
-  width: 100%;
+  width: calc(100% - 20px);
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
   color: white;
-  background: #00a79d;
+  background: #3b7ea1;
   position: relative;
   z-index: 3000;
   overflow: hidden;
@@ -282,7 +286,7 @@ html {
   font-weight: 700;
   width: 50px;
   padding: 10px;
-  background: #00a79d; }
+  background: #3b7ea1; }
 
 #sidebar-open-button:hover {
   transition-duration: 0.2s;
@@ -294,7 +298,7 @@ html {
 #navbar-bottom {
   width: 100%;
   height: 50px;
-  background: #00a79d; }
+  background: #3b7ea1; }
 
 .banner-header {
   padding-top: 30px;
@@ -340,13 +344,13 @@ html {
 
 .header {
   font-size: 40px;
-  color: #007065;
+  color: #3b7ea1;
   font-weight: 700;
   padding: 14px 0px 0px 0px; }
 
 .subheader {
   font-size: 30px;
-  color: #009e8f;
+  color: #00b0da;
   font-weight: 700;
   padding-top: 14px;
 }
@@ -406,7 +410,7 @@ tr {
 
 td {
   font-size: 18;
-  color: #007065;
+  color: #3b7ea1;
   padding: 8px;
   padding-right: 15px;
 }
@@ -461,11 +465,11 @@ td:hover {
     overflow: visible; }
 
   .banner-header {
-    margin-top: 20px; } 
-  
+    margin-top: 20px; }
+
   /* Mobile Classes */
   .mobile-sidebar {
-    visibility: visible; 
+    visibility: visible;
     display: block; }
 
   .mobile-sidebar .closebtn {
