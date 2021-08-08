@@ -37,7 +37,7 @@ a:not(.button):hover {
 }
 */
 .link {
-  color: #1bbcc4;
+  color: #00a598;
   font-weight: 700; }
 
 .clickme {
@@ -326,14 +326,14 @@ html {
 .caption-text {
   margin-left: 5%;
   margin-right: 5%;
-  font-size: 30px;
-  color: #00453e; }
+  font-size: 25px;
+  color: #003262; }
 
 .temp-header-text {
   margin-left: auto;
   margin-right: auto;
   font-size: 100px;
-  color: #00453e; }
+  color: #003262; }
 
 .content {
   margin-left: 40px;
@@ -359,7 +359,7 @@ html {
 .category-header {
   margin-left: 40px;
   font-size: 25px;
-  color: #1bbcc4#ffac45;
+  color: #00a598#ffac45;
   font-weight: 700;
   padding-top: 14px;
 }
@@ -367,7 +367,7 @@ html {
 .guest-header {
   margin-left: 80px;
   font-size: 23px;
-  color: #1bbcc4;
+  color: #00a598;
   font-weight: 700;
   padding-top: 14px;
 }
@@ -376,7 +376,7 @@ html {
   margin-left: 100px;
   margin-right: 50px;
   font-size: 20px;
-  color: #00453e;
+  color: #003262;
 }
 
 .question {
@@ -392,8 +392,8 @@ html {
 }
 
 .text {
-  font-size: 20px;
-  color: #00453e; }
+  font-size: 18px;
+  color: #003262; }
 
 table, th {
   margin: 20px;
