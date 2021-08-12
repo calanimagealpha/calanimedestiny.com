@@ -13,6 +13,7 @@ body {
   text-align: center;
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
   background-color: #eeeeee;
   /*background-image: url("stripes.png");*/ }
 
@@ -62,7 +63,8 @@ a:not(.button):hover {
 
 html {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  overflow-x: hidden;}
 
 #navbar-container {
   margin-left: 160px;
@@ -506,3 +508,19 @@ td:hover {
   #sidebarSlidContent {
     visibility: hidden;
     display:none; } }
+
+
+.videocontainer {
+    position: relative;
+    width: 40%;
+    height: 0;
+    padding-bottom: 22.5%;
+    display: inline-block;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

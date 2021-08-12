@@ -62,11 +62,12 @@
     <!--Mobile Navbar-->
     <div id="mainSidebar" class="mobile-sidebar">
         <a href="javascript:void(0)" class="closebtn" style="color:white" onclick="closeNav()">&times;</a>
-        <a href="/">Home</a>
         <a href="registration/">Registration</a>
-        <a href="location/">Location</a>
+        <a href="map/">Map</a>
         <a href="programming/">Programming</a>
-        <a href="exhibitors/">Exhibitors</a>
+        <a href="artistalley/">Artist Alley</a>
+        <a href="sponsors/">Sponsors</a>
+        <a href="faq/">Programming</a>
         <a href="contact/">Contact</a>
     </div>
 
@@ -113,21 +114,24 @@
 
     <div id="navbar-bottom"></div>
 
-    <iframe
-        src="https://player.twitch.tv/?channel=calanimagealpha&parent=calanimedestiny.com"
-        height="315"
-        width="560"
-        allowfullscreen="true">
-    </iframe>
+    <div class="videocontainer" align="left">
+        <iframe
+            src="https://player.twitch.tv/?channel=calanimagealpha&parent=calanimedestiny.com"
+            allowfullscreen
+            class="video">
+        </iframe>
+    </div>
 
-    <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/tua32WLsWZQ"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+    <div class="videocontainer" align="right">
+        <iframe
+            src="https://www.youtube.com/embed/tua32WLsWZQ"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="video"
+            >
+        </iframe>
+    </div>
 
 
     <div class="container" id="about">
