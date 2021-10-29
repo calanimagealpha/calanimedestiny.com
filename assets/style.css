@@ -38,7 +38,7 @@ a:not(.button):hover {
 }
 */
 .link {
-  color: #00a598;
+  color: #00b0da;
   font-weight: 700; }
 
 .clickme {
@@ -71,6 +71,7 @@ html {
   float: right;
   position: relative;
   z-index: 3000; }
+
   #navbar-container .navbar-content {
     float: left;
     color: white;
@@ -80,12 +81,14 @@ html {
     z-index: 3000;
     text-transform: uppercase;
     background: #3b7ea1; }
+
     #navbar-container .navbar-content:hover {
       transition-duration: 0.2s;
       -webkit-transition-duration: 0.2s;
       -moz-transition-duration: 0.2s;
       -o-transition-duration: 0.2s;
       color: #f5c181; }
+
     #navbar-container .navbar-content a {
       position: absolute;
       width: 100%;
@@ -94,6 +97,31 @@ html {
       left: 0;
       z-index: 4000;
       font-size: 0; }
+
+#navbar-container .navbar-logo {
+    float: left;
+    color: white;
+    padding: 10px;
+    /* left: 10px; */
+    padding-top: 6px;
+    padding-bottom: 2px;
+    font-size: 100%;
+    position: relative;
+    z-index: 3000;
+    text-transform: uppercase;
+    background: #3b7ea1; }
+
+#navbar-container .navbar-logo a {
+    float: left;
+    color: white;
+    padding: 5px;
+    /* left: 10px; */
+    display: contents;
+    font-size: 100%;
+    position: relative;
+    z-index: 3000;
+    text-transform: uppercase;
+    background: #3b7ea1; }
 
  /* The mobile sidebar menu */
 .mobile-sidebar {
@@ -161,10 +189,14 @@ html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (gradient.png). This will make the text easier to read */
-  background-image: url('gradient.png');
+  background-image: url('banner2021.jpg');
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(238, 238, 238, 0.25)),
+    url('banner2021.jpg');
+
 
   /* Set a specific height */
-  height: 100%;
+  height: 50vh;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -174,18 +206,27 @@ html {
 }
 
 /* Place text in the middle of the image */
-/*.hero-text {
-  text-align: center;
+.hero-text {
+  /* text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-}*/
+  color: white; */
+  position: absolute;
+  text-align: left;
+  bottom: 0;
+  margin-left: 1%;
+}
+
+.banner-text {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
 
 #logo {
   position: absolute;
-  margin: 8px 0px 0px 60px; }
+  margin: 8px 0px 0px 10px; }
   #logo #adlogo {
     width: 80px; }
 
@@ -352,7 +393,7 @@ html {
 
 .subheader {
   font-size: 30px;
-  color: #00b0da;
+  color: #3b7ea1;
   font-weight: 700;
   padding-top: 14px;
 }
@@ -512,9 +553,9 @@ td:hover {
 
 .videocontainer {
     position: relative;
-    width: 40%;
+    width: 44.5%;
     height: 0;
-    padding-bottom: 22.5%;
+    padding-bottom: 30%;
     display: inline-block;
 }
 .video {
