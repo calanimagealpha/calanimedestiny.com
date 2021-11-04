@@ -3,18 +3,9 @@ var slidesHtmlFooter = "<!-- Next\/previous controls --> <div class=\"prev\" onc
 &#10094;<\/a><\/div> <div class=\"next\" onclick=\"plusSlides(1)\"><a>&#10095;<\/a><\/div>";
 
 /* Reading and Randomizing Artists */
-function randomizeArtists() {
-    // TODO, currently filler data
-    return [{
-        "profilePic": "https://pbs.twimg.com/profile_images/1399802225556262912/Dqy48V7X_400x400.jpg",
-        "name": "quandrries",
-        "description": "Short blurb about myself! I hate drawing but I like Zero Escape a lot!",
-        "commLink": "https://twitter.com/quandrries/status/1400217154981564419",
-        "image1": "https://pbs.twimg.com/media/Ews-plAUcAIHKiK.jpg",
-        "image2": "https://pbs.twimg.com/media/Ews-sfGVkAAeg5A.jpg",
-        "image3": "https://pbs.twimg.com/media/Ews-z8tVgAA10wu.jpg",
-        "image4": "https://pbs.twimg.com/media/EkuUW2eVoAMSSJI.jpg"
-    }]
+async function randomizeArtists() {
+    const data = await fetch('artists.json')
+    return data.json()
 }
 
 /* Filling HTML Templates */
@@ -37,7 +28,7 @@ function fillArtists() {
             break;
         }
         // These field names may need to be changed based on your fields
-        rowHtml += templateHtml.replace(/{{profilePic}}/g, artists[i]["profilePic"])
+        rowHtml += templateHtml.replace(/{{profilePic}}/g, "../" + artists[i]["profilePic"])
             .replace(/{{name}}/g, artists[i]["name"])
             .replace(/{{description}}/g, artists[i]["description"])
             .replace(/{{commLink}}/g, artists[i]["commLink"])
@@ -96,27 +87,79 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
 }
 
-/* Pagination */
-function initPagination() {
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
 
+    return array
 }
 
-function incrementPage(increment) {
-    pageNumber += increment;
-    pageNumber = pageNumber % pages;
+var loaded = false;
+var artists = [];
+var pageNumber = 1;
+var pages = Math.ceil(artists.length / MAX_PER_PAGE);
+var modal = document.getElementById("myModal");
+var slideIndex = 1;
+
+function setPage(pageNum) {
+    pageNumber = Math.min(Math.max(1, pageNum), pages);
     fillArtists();
+    updatePageDots();
+}
+
+function incrementPage(pageNum) {
+    setPage(pageNumber + pageNum)
 }
 
 /* Main Initialization */
-var artists = randomizeArtists(); // Assumed to be 0-indexed
-var pageNumber = 1;
-var pages = Math.ceil(artists.length / MAX_PER_PAGE);
-fillArtists();
-initPagination();
+function updatePageDots() {
+    // assuming only three dots, it's too late
+    // for me to implement a dynamic version so
+    // here's some spaghet
 
-var modal = document.getElementById("myModal");
-var slideIndex = 1;
-showSlides(slideIndex);
+    document.querySelectorAll(".pdot-1").forEach((el) => {
+        if (pageNumber == 1) {
+            el.classList.remove("dote")
+            el.classList.add("dotf")
+        } else {
+            el.classList.remove("dotf")
+            el.classList.add("dote")
+        }
+    });
+    document.querySelectorAll(".pdot-2").forEach((el) => {
+        if (pageNumber == 2) {
+            el.classList.remove("dote")
+            el.classList.add("dotf")
+        } else {
+            el.classList.remove("dotf")
+            el.classList.add("dote")
+        }
+    });
+    document.querySelectorAll(".pdot-3").forEach((el) => {
+        if (pageNumber == 3) {
+            el.classList.remove("dote")
+            el.classList.add("dotf")
+        } else {
+            el.classList.remove("dotf")
+            el.classList.add("dote")
+        }
+    });
+}
+
+randomizeArtists().then((data) => {
+    loaded = true;
+    artists = shuffleArray(data);
+    pages = Math.ceil(artists.length / MAX_PER_PAGE);
+
+    pageNumber = 1;
+    fillArtists();
+    updatePageDots();
+
+    showSlides(slideIndex);
+})
+
 
 /* Runtime */
 
