@@ -1,50 +1,70 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>Anime Destiny</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<link href='https://fonts.googleapis.com/css?family=Marvel:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="../assets/style.css"/>
-	<link rel="icon" type="image/png" href="../assets/Chibi.png"/>
-	<!-- Global Site Tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106889406-2"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments)};
-	  gtag('js', new Date());
 
-	  gtag('config', 'UA-106889406-2');
-	</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Marvel:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <title>Anime Destiny</title>
+    <link href="https://calanimedestiny.com/assets/style.css?version=0.1" rel="stylesheet" type="text/css" media="all">
+    <link href="../assets/artistalley.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../assets/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" type="image/png" href="../assets/Chibi.png" />
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106889406-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments)
+        };
+        gtag('js', new Date());
+
+        gtag('config', 'UA-106889406-2');
+    </script>
+    <style>
+        @font-face {
+            font-family: "Cyntho Pro Regular";
+            src: url("CynthoPro-Regular.woff");
+        }
+    </style>
 </head>
+
 <body>
     <div id="navbar-wrapper">
-	<div id = "navbar">
-		<div id = "logo"><a href = "../"><img id = "adlogo" src = "../assets/logo.png"></a></div>
-        <div id="navbar-container">
-        <div class = "navbar-content" id = "home-text"><a href = "">Cal Anime Destiny</a>Cal Anime Destiny</div>
-            <div class="navbar-content">
-                <a href="../programming/">Programming</a>Programming
+        <div id="navbar">
+            <div id="logo">
+                <a href="../"><img id="adlogo" src="../assets/logo.png"></a>
             </div>
-            <div class="navbar-content">
-                <a href="../artistalley/">Artist Alley</a>Artist Alley
+            <div id="navbar-container">
+                <div class="navbar-content" id="home-text"><a href="">Cal Anime Destiny</a>Cal Anime Destiny</div>
+                <div class="navbar-content">
+                    <a href="../programming/">Programming</a>Programming
+                </div>
+                <div class="navbar-content">
+                    <a href="../artistalley/">Artist Alley</a>Artist Alley
+                </div>
+                <div class="navbar-content">
+                    <a href="../sponsors/">Sponsors</a>Sponsors
+                </div>
+                <div class="navbar-content">
+                    <a href="../contact/">Contact</a>Contact
+                </div>
+                <div class="navbar-logo">
+                    <a href="https://discord.gg/Xp4MUjG"><img style="max-width: 36px" src="../assets/discord.png"></a>
+                </div>
+                <div class="navbar-logo" style="padding-top:12px">
+                    <a href="https://www.youtube.com/channel/UCqwtuMg539jVEtTYRrtD6kw"><img style="max-width: 36px" src="../assets/youtube.png"></a>
+                </div>
+                <div class="navbar-logo">
+                    <a href="https://www.twitch.tv/calanimagealpha/"><img style="max-width: 36px" src="../assets/twitch.png"></a>
+                </div>
             </div>
-            <div class="navbar-content">
-                <a href="../sponsors/">Sponsors</a>Sponsors
-            </div>
-            <div class="navbar-content">
-                <a href="../contact/">Contact</a>Contact
-            </div>
-            <div class="navbar-logo">
-                <a href="https://discord.gg/Xp4MUjG"><img style="max-width: 36px" src="../assets/discord.png"></a>
-            </div>
-            <div class="navbar-logo" style="padding-top:12px">
-                <a href="https://www.youtube.com/channel/UCqwtuMg539jVEtTYRrtD6kw"><img style="max-width: 36px" src="../assets/youtube.png"></a>
-            </div>
-            <div class="navbar-logo">
-                <a href="https://www.twitch.tv/calanimagealpha/"><img style="max-width: 36px" src="../assets/twitch.png"></a>
+            <div id="logo">
+                <a href="../"><img id="adlogo" src="https://calanimedestiny.com/assets/logo.png"></a>
             </div>
         </div>
-	</div>
-	</div>
+    </div>
 
     <div id="mainSidebar" class="mobile-sidebar">
         <a href="javascript:void(0)" class="closebtn" style="color:white" onclick="closeNav()">&times;</a>
@@ -64,17 +84,93 @@
         </div>
     </div>
 
-	<div id = "bar"></div>
-	<div class = "container">
-		<div class = "content">
-			<div class = "header">Artist Alley!</div>
-            <div class = "subheader" style="text-align:center">Stay tuned!</div>
-		</div>
-	</div>
-      <div id = "footer">
-          &copy;
-          2014-2021 Anime Destiny and Cal Animage Alpha. Design by <a href="http://haiyun.tumblr.com/">Haidee Pan</a>. All rights reserved.
-      </div>
+    <div id="bar"></div>
+    <div class="container">
+        <div class="content">
+            <div class="header">ARTIST ALLEY</div>
+            <div class="text">
+                The order of the artists is randomized on every page load. Use the arrows to explore more artists!
+            </div>
+            <div class="page">
+                <a href="javascript:incrementPage(-1);"><span class="pagearrowtext">&#10094; Prev</span><span
+                            class="pagearrow">&#10094;</span></a>&nbsp;
+                <a href="javascript:setPage(1);"><span class="dote pdot-1"></span></a>
+                <a href="javascript:setPage(2);"><span class="dote pdot-2"></span></a>
+                <a href="javascript:setPage(3);"><span class="dote pdot-3"></span></a> &nbsp;
+                <a href="javascript:incrementPage(1);"><span class="pagearrowtext">Next &#10095;</span><span
+                            class="pagearrow">&#10095;</span></a>
+            </div>
+            <!-- Artists populated by JS -->
+            <div class="row"></div>
+            <!-- The Modal/Lightbox -->
+            <div id="myModal" class="modal">
+                <!-- Slides populated by JS -->
+                <div class="modal-content"></div>
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+            </div>
+            <!-- TODO: Change this to increment page on click and look the same -->
+            <div class="page">
+                <a href="javascript:incrementPage(-1);"><span class="pagearrowtext">&#10094; Prev</span><span
+                    class="pagearrow">&#10094;</span></a>&nbsp;
+                <a href="javascript:setPage(1);"><span class="dote pdot-1"></span></a>
+                <a href="javascript:setPage(2);"><span class="dote pdot-2"></span></a>
+                <a href="javascript:setPage(3);"><span class="dote pdot-3"></span></a> &nbsp;
+                <a href="javascript:incrementPage(1);"><span class="pagearrowtext">Next &#10095;</span><span
+                    class="pagearrow">&#10095;</span></a>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        &copy; 2014-2020 Anime Destiny and Cal Animage Alpha. Design by <a href="http://haiyun.tumblr.com/">Haidee Pan</a>. All rights reserved.
+    </div>
+
+    <script id="template-artist" type="text/template">
+        <div class="artist">
+            <div class="subheader">
+                <img src="{{profilePic}}" width=50px> {{name}}
+            </div>
+            <div class="text">
+                {{description}}
+            </div>
+            <!-- The suggestion: Put website first (if any), then social sites in alphabetical order, then commissions and store
+            However, currently this template only supports one -->
+            <div class="icons">
+                <span style="white-space: nowrap;"><a href="{{commLink}}"><i class="fas fa-paint-brush"></i>Commissions</a></span>
+            </div>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <div class="rect-img-container">
+                        <img class="rect-img" src="{{image1}}" alt="" onclick="openModal();currentSlide({{slide1}})">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="rect-img-container">
+                        <img class="rect-img" src="{{image2}}" alt="" onclick="openModal();currentSlide({{slide2}})">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="rect-img-container">
+                        <img class="rect-img" src="{{image3}}" alt="" onclick="openModal();currentSlide({{slide3}})">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="rect-img-container">
+                        <img class="rect-img" src="{{image4}}" alt="" onclick="openModal();currentSlide({{slide4}})">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </script>
+    <script id="template-slide" type="text/template">
+        <div class="mySlides">
+            <img src="{{image}}">
+        </div>
+    </script>
+
+    <script src="https://kit.fontawesome.com/b96ade691a.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="../scripts/sidebarButton.js"></script>
+    <script type="text/javascript" src="../scripts/artistalley.js"></script>
 </body>
+
 </html>
