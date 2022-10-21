@@ -1,299 +1,62 @@
 [
-    {
-      "handle": "03rin",
-      "name": "03rin",
-      "description": "Hello, everybody! My name is 03rin or Erin! I'm a science student and a hobbyist artist! You'll always see me drinking chai tea latte. ♥\n\nI love to make illustrations filled with sparkles and love! Sometimes, I'll draw some ship art and fanart. Right now, I am currently taking commissions on digital couple illustrations, portraits, and chibis! ♥\n\nChat with me if you'd like! I love to play video games and watch anime/read manga! At the moment, I am into this video game, Great Ace Attorney, and this series, 86: Eighty-Six! ♥",
-      "profilePic": "assets/artists/pfp/03rin.png",
-      "commLink": "https://03rin.carrd.co/",
-      "image1": "https://i.fluffy.cc/ZTN8tLGKv1MtlZ3L9kwBQszs0t4V7BnT.jpeg",
-      "image2": "https://i.fluffy.cc/WLhs5BMs8PSw0DBz3KCnDWtwxXSSX6dK.jpeg",
-      "image3": "https://i.fluffy.cc/DBgJzJ3n08cMlX5Rx399kq24JGkf3Gqg.jpeg",
-      "image4": "https://i.fluffy.cc/bZs8gvxfwCbm7pz38xh1phN2FLNwLwzk.jpeg"
-    },
-    {
-      "handle": "AliceBrenengen",
-      "name": "Alice Brenengen",
-      "description": "Hi there! My name is Alice and I am a Junior studying Business Analytics and CS but on the side I love to needle felt and create beaded accessories. A lot of my art is ghibli and nintendo based but I dabble in some cute flower designs once in a while. I am open to customs from all realms but I usually like to stick to animated characters as opposed to hyperrealistic art.\n\nMy favorite anime is Scissor Seven (with Aggretsuko being a close contender) but lately I've been on a video game grind and have been playing a lot of Stardew and Overwatch.\n\nI hope you find something you love!",
-      "profilePic": "assets/artists/pfp/AliceBrenengen.png",
-      "commLink": "https://www.etsy.com/shop/whoopsywool/",
-      "image1": "https://i.fluffy.cc/tqSkxN39GP2zpH5nQ40FnzsJffMCLGdr.jpeg",
-      "image2": "https://i.fluffy.cc/sHDkjthbQnJ6gZ9b915CClDmbbxPL8x7.png",
-      "image3": "https://i.fluffy.cc/CJm4g55kWHZHw8fHbz7ChGjcbvLnx41w.JPG",
-      "image4": "https://i.fluffy.cc/CfpkGtHNwsVC4tQMKcj4pFL13Wxtx32f.png"
-    },
-    {
-      "handle": "Alumints",
-      "name": "Alumints",
-      "description": "Hi, I'm alu! Full-time student, hobbyist artist. I enjoy making self-indulgent merch and illustrations. Have not stopped thinking about Ace Attorney since I played last year.",
-      "profilePic": "assets/artists/pfp/Alumints.jpg",
-      "commLink": "https://alumints.bigcartel.com/",
-      "image1": "https://i.fluffy.cc/z74ghgBCsql6VKZq26fLnHgccW4hnGdK.jpeg",
-      "image2": "https://i.fluffy.cc/4K1jGPk6gc7zKBH0qmDJtgxcKMX8SLdw.JPG",
-      "image3": "https://i.fluffy.cc/RFGZXvttZb5FrxHswRrgMhdBxD0vccSG.JPG",
-      "image4": "https://i.fluffy.cc/gWdMGPmhG9NJ7pW1ZHzjdGHN3WClG7vD.JPG"
-    },
-    {
-      "handle": "andro_arts_",
-      "name": "andro_arts_",
-      "description": "I mainly make fanart! I love the Sailor Moon series and Cowboy Bebop! I am actually currently working on a Cowboy Bebop Poster that you will see on my channel on discord!",
-      "profilePic": "assets/artists/pfp/andro_arts_.png",
-      "commLink": "javascript:void(0);",
-      "image1": "https://i.fluffy.cc/6x0klZHXc37thT7vpZ6FghHFp8HbTW31.jpg",
-      "image2": "https://i.fluffy.cc/McKsW7Hs2CQvw6NbbCsSbT1tPxQNlN0N.jpg",
-      "image3": "https://i.fluffy.cc/TjQLSpFxC0mVTTnDsH74BSljfHWRNkQj.jpg",
-      "image4": "https://i.fluffy.cc/6fcq46SVb2ssVT1Qt1Gd15T6DVDPwwq9.png"
-    },
-    {
-      "handle": "AngelaBi",
-      "name": "Angela Bi",
-      "description": "Hi! I'm Angela, a freshman planning on majoring in MCB or data science. I make stylized anime art and realistic art, which I run different accounts for on Instagram. On my anime-based account, I make fanart of whatever I'm into: kpop, anime, or minecraft youtubers. On my other account, I make a wider variety of art that addresses more personal aspects of my identity. I used to have a webtoon during high school, so I might try and get back into that during college! Other than that, I use art to express my interests and take a break from STEM.",
-      "profilePic": "assets/artists/pfp/AngelaBi.jpg",
-      "commLink": "https://www.angelabi.com/",
-      "image1": "https://i.fluffy.cc/wPzd7cqGP6qKc5xTGqgzThDCgJDGMskJ.jpg",
-      "image2": "https://i.fluffy.cc/2L8P0NZtX45HGdjd3tdbgzDDl4PJgtWc.jpg",
-      "image3": "https://i.fluffy.cc/06kwRG9XjtJN1PN80s4hzfsl2S1cTxLH.jpg",
-      "image4": "https://i.fluffy.cc/R23Ndf42wDftsCgVRRLKl2QNcRwFztjP.jpg"
-    },
-    {
-      "handle": "BunMuffin",
-      "name": "BunMuffin",
-      "description": "I am self-employed artist, who loves to make and sell merchandise of fandoms I enjoy as well as originals. The current series I'm into is JJK and Haikyuu. Making and selling merch is my full time job so I always coming up with new merch, though I have a lot of passion projects I'm working on such as a Friday Night Funkin' Mod and a webtoon series.",
-      "profilePic": "assets/artists/pfp/BunMuffin.png",
-      "commLink": "https://www.etsy.com/shop/BunMuffin",
-      "image1": "https://i.fluffy.cc/bkfLCnVjSPrVvPbD0GQw3M1nXGDGsFlZ.png",
-      "image2": "https://i.fluffy.cc/nvqS9MqKH8QkGjkWB4GVnmns8KJjM8vs.jpg",
-      "image3": "https://i.fluffy.cc/R5VMWqrsnKG2N1Ncktmn2B4KJZsb12vL.jpg",
-      "image4": "https://i.fluffy.cc/gmlJGCqLSMFCzpcnFtWZmPpPGdWqMhZb.jpg"
-    },
-    {
-      "handle": "chapter56",
-      "name": "chapter56",
-      "description": "Hello, I'm chapter56! I do mostly digital anime style art, and currently I'm working on an MXTX tarot deck (o´∀`o)",
-      "profilePic": "assets/artists/pfp/chapter56.png",
-      "commLink": "https://tinyurl.com/chapter56comm",
-      "image1": "https://i.fluffy.cc/bqClJjRHPsHWQqSQXggshjgnPnRJ10sK.png",
-      "image2": "https://i.fluffy.cc/Q9Qdh9VLBzkmW7hZBjqXbzWqWvC0LxM1.png",
-      "image3": "https://i.fluffy.cc/D5lBSNBK7srq1ZWjNqH5QvdJr834zF1X.png",
-      "image4": "https://i.fluffy.cc/CQNq8nwxTgcxMX1HWNpr6355ZcR3p0X7.png"
-    },
-    {
-      "handle": "ColorspinnerCrafts",
-      "name": "Colorspinner Crafts",
-      "description": "Yooo! I'm Colorspinner, and I'm a 3D artist that works mainly with yarn and polymer clay. Right now I'm really into Genshin Impact and Digimon, and am gradually learning how to work with resin.",
-      "profilePic": "assets/artists/pfp/ColorspinnerCrafts.jpg",
-      "commLink": "https://www.etsy.com/shop/ColorSpinnerCrafts",
-      "image1": "https://i.fluffy.cc/jmVgq8vMhRlwqqdfN9ZH8bM3VCmlXbCQ.jpg",
-      "image2": "https://i.fluffy.cc/s99BBSpdLhv6S2gbb1PrmcStM373hHBW.jpg",
-      "image3": "https://i.fluffy.cc/TSGQdhXVBJ2mKlrbMPSsHsQ8fqZGZB0C.jpg",
-      "image4": "https://i.fluffy.cc/ntDxq04NSFcBCm3rtNrQjTbdjgrSzj74.jpg"
-    },
-    {
-      "handle": "fxtsoba",
-      "name": "fxtsoba",
-      "description": "Hi everyone! I'm Grace, I'm a Berkeley alumni, and super excited to be back at AD (albeit online)! \n\nI love all things nerdy, so feel free to talk to me about music, anime, MCU, Disney, animation in general, or any TV shows you've watched lately. I also enjoy cosplaying, ask me for any advice or help too! <3\n\nMost of my items (including pins, stickers, and plushies) are handmade. Please feel free to ask questions or just hang out and chat with me!\n\nLinks Everything! Please check out my socials if you can, much appreciated! @fxtsoba",
-      "profilePic": "assets/artists/pfp/fxtsoba.jpg",
-      "commLink": "https://fxtsoba.etsy.com",
-      "image1": "https://i.fluffy.cc/9XH4rlCdW3J1dVZjNBxSdCWlpMVNMNM0.jpg",
-      "image2": "https://i.fluffy.cc/T208kTKXzKR4Sl234Vv6C1kHndtrKfZk.jpg",
-      "image3": "https://i.fluffy.cc/6WmR8cTB9gXHhxp3WHx3dzpFbMzNNbrC.jpg",
-      "image4": "https://i.fluffy.cc/P43Vwf5CPXC1n3MZTmXzS1vpJkt0lDhH.jpg"
-    },
-    {
-      "handle": "GinCatStudio",
-      "name": "GinCat Studio",
-      "description": "I’m a crazy cat mom trying to make a living so my cat can live a good life. Anime I like include haikyuu, ginata, ACCA, and blue period. Currently I’m trying to make ita bags for Haikyuu as well as KNY.",
-      "profilePic": "assets/artists/pfp/GinCatStudio.jpg",
-      "commLink": "https://linktr.ee/Gin_Catlady",
-      "image1": "https://i.fluffy.cc/jbxtwqDsk2BKlMbX517BHfnJGqPrkLTX.jpeg",
-      "image2": "https://i.fluffy.cc/NGF04RSbxfd3BNjR6wd6MkTBh0jHbmjM.png",
-      "image3": "https://i.fluffy.cc/bWcSH5zfKRnk0JfcnH3c39Pq7DhvN8tf.jpeg",
-      "image4": "https://i.fluffy.cc/BQMpB9gSwb68JfD1nJDtMt3r3jwdz8m7.jpeg"
-    },
-    {
-      "handle": "InfinityRise1",
-      "name": "InfinityRise1",
-      "description": "Hi! I’m Infinity, I love all things magical girls and title myself a connoisseur of the genre. I’m a very deep anime fan, watching for almost 16+ yrs so I’m quite familiar with many series. I like to make really cute art with a soul in every work, I’m currently working on an enamel pin series for My Little Pony.",
-      "profilePic": "assets/artists/pfp/InfinityRise1.jpg",
-      "commLink": "https://www.infinityrise.net/",
-      "image1": "https://i.fluffy.cc/Hd8Cg2skp1K2ZFmMGzdr27q2jqJmhR3P.jpeg",
-      "image2": "https://i.fluffy.cc/dMhwCLKC9sWGNc9dPfd1RcSJr3bxZSVs.jpg",
-      "image3": "https://i.fluffy.cc/PpL1kbctzCpqtdVgpxcSVWCn5X6nRV6c.jpg",
-      "image4": "https://i.fluffy.cc/6bLKdK6PSDSh8LFGhTscwMBZKjC7cdls.jpg"
-    },
-    {
-      "handle": "Izelillustrations",
-      "name": "Izelillustrations",
-      "description": "I am a 27 year old digital illustrator based in Fresno, CA. I create artwork that is based on my culture and heritage of Mexican and Native American. I create enamel pins, embroidered patches, stickers, prints, and apparel of my artwork. Currently I am working on a new series based on the indigenous animals of the Americas.",
-      "profilePic": "assets/artists/pfp/Izelillustrations.png",
-      "commLink": "https://www.michaelvasquezillustration.com/pinsandpatches/",
-      "image1": "https://i.fluffy.cc/57thH5JxhsqwdW3zx102zPvXbR8mp4sj.png",
-      "image2": "https://i.fluffy.cc/mfp5j946RSCjWTfbH1D6LNxT272TgN1k.png",
-      "image3": "https://i.fluffy.cc/q2x04rX5H42gnWH23SNVj3DgRpZPWgCf.png",
-      "image4": "https://i.fluffy.cc/07xq8g6SLLk65ZknVzZFQMXHn830cmzh.png"
-    },
-    {
-      "handle": "JayEdwards101",
-      "name": "JayEdwards101",
-      "description": "I am a freelance artist who also doubles as an art instructor. I been teaching art for many years, and I have been making art of many of my favorite interests. My favorite videogames are Undertale, Pokemon, Deltarune, and many many more. If I had to pick a top anime for me that is a hard pick because there so many good ones! HunterXhunter being one of the many I adore. Art is a passion of mine, and I hope I can show my work to many  people! My biggest hope is to make people happy. https://www.deviantart.com/jay101/art/Jay101-s-Commission-List-839841414",
-      "profilePic": "assets/artists/pfp/JayEdwards101.png",
-      "commLink": "https://www.etsy.com/shop/JayEdwards101",
-      "image1": "https://i.fluffy.cc/pWndsQNCmVWd778z55nqwLd63cqG5XqQ.jpg",
-      "image2": "https://i.fluffy.cc/Hzh6sQ1xXHHLV05828d2vsg0l07sP8b5.jpg",
-      "image3": "https://i.fluffy.cc/p4QkBhMvxDLjNmsCVJXrM5G2b941nGb4.jpg",
-      "image4": "https://i.fluffy.cc/2r2cxN36xj2THtSdndqXsXgpMNLG9hSn.jpg"
-    },
-    {
-      "handle": "KnightKun",
-      "name": "KnightKun",
-      "description": "I'm Knight! I like to make merch of games and animes that I like! I mostly make charms and stickers of my favorite series, with Genshin Impact being my biggest collection at the moment!",
-      "profilePic": "assets/artists/pfp/KnightKun.png",
-      "commLink": "https://knightingale.carrd.co/",
-      "image1": "https://i.fluffy.cc/gkGmqvczCV4LsFKGlQXKMjT5VF82gSwx.png",
-      "image2": "../assets/berkeleygrey.png",
-      "image3": "../assets/berkeleygrey.png",
-      "image4": "../assets/berkeleygrey.png"
-    },
-    {
-      "handle": "Naitsukiidraws",
-      "name": "Naitsukiidraws",
-      "description": "prints, keychains, pop sockets, stickers, peekers",
-      "profilePic": "assets/artists/pfp/Naitsukiidraws.png",
-      "commLink": "http://naitsukiidraws.com",
-      "image1": "https://i.fluffy.cc/Wb7pZrc6GgqtGgn5VSkxRr4DPtKgHm13.JPG",
-      "image2": "../assets/berkeleygrey.png",
-      "image3": "../assets/berkeleygrey.png",
-      "image4": "../assets/berkeleygrey.png"
-    },
-    {
-      "handle": "NyamenRamen",
-      "name": "NyamenRamen",
-      "description": "Hey guys! My name is NyamenRamen, and I'm your token freshman college student that likes to draw pretty anime characters! Though most of my current art tends to be Genshin Impact and Pokemon-related, my love for anime stretches far and wide. Currently, I've been really into the Monagatari series, Kyoani works, and After the Rain (Mafumafu/Soraru)!",
-      "profilePic": "assets/artists/pfp/NyamenRamen.jpg",
-      "commLink": "javascript:void(0);",
-      "image1": "https://i.fluffy.cc/gfTsgFRlNLGXsr73hc5RB8G2KhxTfXct.PNG",
-      "image2": "https://i.fluffy.cc/wNdXp1HcQb96BWMPJrVtLWNQqFKXpLzz.png",
-      "image3": "https://i.fluffy.cc/pP83Fzj57J5JWlLT3bgWpcm8KCSvv1ZH.PNG",
-      "image4": "https://i.fluffy.cc/7BngNRmh8fPtrWhvxD4Rc8nmKKK2f6JT.PNG"
-    },
-    {
-      "handle": "NyxAurelia",
-      "name": "Nyx Aurelia",
-      "description": "I'm an artist who loves ethereal, dramatic, and mysterious fantasy art and character designs. I started off painting watercolor, but this year I have switched to digital art in order to start creating my own character universe named \"Iteration,\" which tells the world of Nyx Aurelia through a compilation of paintings and written lore. While I've decided to focus on these character stories, I do make occasional fanarts from my favorite anime/games, or just character designs that inspire me! For the near future, Akame ga Kill, Nier, Fire Emblem, are all in my plans~",
-      "profilePic": "assets/artists/pfp/NyxAurelia.jpg",
-      "commLink": "https://www.nyxaurelia.art",
-      "image1": "https://i.fluffy.cc/77cvmmbJ6dqgL8Kdq5Z3fZgvRNSRQxL1.jpg",
-      "image2": "https://i.fluffy.cc/LMnM7x7B1Sn3TcJ0NrdkFl8wQTKCRStH.jpg",
-      "image3": "https://i.fluffy.cc/f1RF1zMkXkP9VN9KRc9fQXCZJSgFHPV1.jpg",
-      "image4": "https://i.fluffy.cc/lJsDdrPTQHZ9TT4329THbwWlX7v2cmKC.jpg"
-    },
-    {
-      "handle": "Picapap",
-      "name": "Picapap",
-      "description": "Hi I'm Seanna! I create fanart and original design stickers, greeting cards, keychains, and more! All inspired by things I love! Check out our shop for all things cute. I hope you'll find something you'll like!",
-      "profilePic": "assets/artists/pfp/Picapap.jpg",
-      "commLink": "https://picapap.com/",
-      "image1": "https://i.fluffy.cc/VtzF0q1mJ72GTkpdKZLqFgFVJmrjWDm7.png",
-      "image2": "https://i.fluffy.cc/5m9BT2KJWbH93BwRfFBNZgp8PPNjjjpT.png",
-      "image3": "https://i.fluffy.cc/LLGNXBnnJcdFmrqfDppgc23TfMM2vmrz.png",
-      "image4": "https://i.fluffy.cc/B2MJpS194tqLB1VXhSmKmPqkXchwPd0T.png"
-    },
-    {
-      "handle": "quandrries",
-      "name": "quandrries",
-      "description": "I'm a digital artist who loves anime mystery games, especially the Zero Escape series! Lately I've been mostly doing original character stuff, but I do draw fanart from time to time. https://twitter.com/quandrries https://instagram.com/quandrries",
-      "profilePic": "assets/artists/pfp/quandarries.png",
-      "commLink": "https://forms.gle/ojv4eQaq7RtPnRGX8",
-      "image1": "https://i.fluffy.cc/nWd2ZrhDzLFdpcJnXMk8VZVRgJp9X14b.png",
-      "image2": "https://i.fluffy.cc/w9xRk65zpthZjn1FT5pBNh07HZQvddLM.png",
-      "image3": "https://i.fluffy.cc/RMXJ8fw4qxFFtS3xZc378XMMFvpBFNWq.png",
-      "image4": "https://i.fluffy.cc/kLGQQfrwXXbbtX8gMVZkgqp253PSQ888.png"
-    },
-    {
-      "handle": "raineeski",
-      "name": "raineeski",
-      "description": "Hello hello! I go by rainee (she/her)! I specialize in character design and digital painting, so I do a lot of original artwork as well as fanart. Some of my favorite anime series include Bungo Stray Dogs, Land of the Lustrous, Hunter x Hunter, and Violet Evergarden. I also enjoy a lot of video game series such as Fire Emblem, Genshin Impact, Animal Crossing, and Identity V! I've been pretty busy with college lately, and as a freshman I'm still trying to get used to things, so finding time to do art has been a challenge. Regardless, I'm always open to making new friends in the community! It's nice to meet everyone!! (^-^)/ <3",
-      "profilePic": "assets/artists/pfp/raineeski.png",
-      "commLink": "https://www.etsy.com/shop/raineeski",
-      "image1": "https://i.fluffy.cc/gWPRjfT2b88N39SWpC0qrcqZ1MVvN0kP.png",
-      "image2": "https://i.fluffy.cc/dvKNJ6vxKh8kJxvj1zccjbNKPXM25hk0.png",
-      "image3": "https://i.fluffy.cc/n26zZdFTk584bfWvM53BVFkp2f1v3tfh.png",
-      "image4": "https://i.fluffy.cc/hScfKb757wpD9zcmKr1KDMT8ztnL10Tb.png"
-    },
-    {
-      "handle": "Rangle",
-      "name": "Rangle",
-      "description": "I'm an anime artist who hasn't properly watched an anime in the last 2 years! I like drawing things from (weeb) videogames tho!",
-      "profilePic": "assets/artists/pfp/Rangle.jpg",
-      "commLink": "https://strrangle.carrd.co/",
-      "image1": "https://i.fluffy.cc/T1DFhhkftHmLwRd4dCDK24mWTJ0rnlMW.jpg",
-      "image2": "https://i.fluffy.cc/RLXDh4DwsWq6rV9X1F3j0g7kNZnKbZ7s.jpg",
-      "image3": "https://i.fluffy.cc/tX7z1WnwVdFNrHlCKWD22VN4qJHcf8Px.jpg",
-      "image4": "https://i.fluffy.cc/JcLf2GHPl9f90bL8cl57P4CX1G9dV704.jpg"
-    },
-    {
-      "handle": "SidneyAnita",
-      "name": "Sidney Anita",
-      "description": "I’m a digital and traditional artist based in the Bay Area! I love creating portraits of characters from shows I’m currently watching. Some of my favorite series are Jujutsu Kaisen and Chainsaw Man.",
-      "profilePic": "assets/artists/pfp/SidneyAnita.jpg",
-      "commLink": "https://www.etsy.com/shop/SidneyAnita",
-      "image1": "https://i.fluffy.cc/gqVQcRLTjlg6sR2lcwKdGN58fjX62Fz6.png",
-      "image2": "https://i.fluffy.cc/3fdkDBDpwsFC5KHZDNQdt7KrlrBz2xsb.png",
-      "image3": "https://i.fluffy.cc/CMNWlNLB51nmrNN3tJlG0WHnkSfMX1Wl.jpg",
-      "image4": "https://i.fluffy.cc/fLg1F399WXsCrxQHcMVRvFmC3lstX5sr.png"
-    },
-    {
-      "handle": "Skylar",
-      "name": "Skylar",
-      "description": "Hello there! I'm Skylar, night owl and unashamed cat person. I love writing, strategy games, dramatic music, ramen, and bitter green tea :). I use they/any pronouns.\n\nI'm an artist/illustrator that specializes in character art, environment art, and concept art. I work in a variety of different styles and disciplines, such as anime/manga, comic book, semi-realism, landscape concept, environment design, stylized portraiture, character design and more. You can find my commissions information on my website!",
-      "profilePic": "assets/artists/pfp/Skylar.jpg",
-      "commLink": "https://www.songskye.com/",
-      "image1": "https://i.fluffy.cc/zRm3bnfNBmQvjmDkLDd12KhzB6fK9qph.jpeg",
-      "image2": "https://i.fluffy.cc/F9shdBTPRZhrbSHlZZkPWZNVRVlt1jCK.jpeg",
-      "image3": "https://i.fluffy.cc/SwRsG0kMqNt2SNgWhSsLKmGGfMsk0mf7.jpeg",
-      "image4": "https://i.fluffy.cc/Qtd1Xw3LDtQW7GGd02fQk98QCGzkNX7t.jpeg"
-    },
-    {
-      "handle": "StupidDinosaurArt",
-      "name": "Stupid Dinosaur Art",
-      "description": "Hi there! I'm Cozy, a digital artist, and I enjoy making art that feels more painterly! I love dramatic lighting and ruffles! My favorite anime are HunterxHunter, D.Gray-Man, Jojo, and 91 Days! I'm involved in a lot of fandoms, and I love making art for series I'm enjoying. I'm working on making acrylic stands, other new fun merch, finishing up and starting new illustrations for prints, and character designs for my upcoming comic project!\n\nFor this artist alley: if you are local to the Berkley area, you can come pick up your purchases instead of having them shipped to you! No need to pay for shipping! Please head over to the artist alley discord and I'll give you more information on how that will work as well as what items I have in stock!",
-      "profilePic": "assets/artists/pfp/StupidDinosaurArt.png",
-      "commLink": "https://beacons.ai/stupiddinosaurart",
-      "image1": "https://i.fluffy.cc/smt2cWpqr1PmMBwxgKd4V9Fn23Nvwk3g.png",
-      "image2": "https://i.fluffy.cc/87z464RD6v480BwDcBb9Gf3dhgfCS2dP.jpg",
-      "image3": "https://i.fluffy.cc/DLQD2HpPJbCN9QFh307VTm75mrhGClTD.jpg",
-      "image4": "https://i.fluffy.cc/dd2jXzrXZBl2KlQLQt5ZZrtwB8cSHrvs.jpg"
-    },
-    {
-      "handle": "tezu",
-      "name": "tezu",
-      "description": "I am but a slave to my OCs. I use to make fanart of One Piece, BNHA, PKMN, TeniPuri and pre-2012 series. Now I just watch ALFEE clips and Soy Luna...",
-      "profilePic": "assets/artists/pfp/tezu.png",
-      "commLink": "https://tezu.bigcartel.com/",
-      "image1": "https://i.fluffy.cc/4XwKcnxCSkjHsRL2NQvJpw6BrFHjLmtr.png",
-      "image2": "https://i.fluffy.cc/g7FffPqJqlk5TbN282C2Mb98DQSfKm34.png",
-      "image3": "https://i.fluffy.cc/6MFrDdRhw8v9zPBhZTGvRdtHxT0P5dhd.png",
-      "image4": "https://i.fluffy.cc/Md1zQSzjBc5S20wpPM6fdBn2FrXhQDzs.png"
-    },
-    {
-      "handle": "saihara-chan",
-      "name": "thedayseater",
-      "description": "hi hi, i'm kate, a hobby artist who's really into video games, manga, and creepy things! my favorite artsy pastimes are character design, storyboarding, and playing with art styles and tools. i'm enamored with blue period and bloodborne, i listen to vocaloid religiously, and i have a special place in my heart for horror rpgs. \n\nTumblr: https://thedayseater.tumblr.com/ \n\nTwitter: https://twitter.com/tsukihigui_art",
-      "profilePic": "assets/artists/pfp/thedayseater.png",
-      "commLink": "https://twitter.com/tsukihigui_art",
-      "image1": "https://i.fluffy.cc/DLsKFRMk4TrHz9MC0PTFXz75g3VFZxfs.png",
-      "image2": "https://i.fluffy.cc/k1bNGFhSzfPSF1S25KXgV6shnzb0zvZS.png",
-      "image3": "https://i.fluffy.cc/n6gZNPBG24qxtQpcTmZLGcXt51xBVkkT.jpg",
-      "image4": "https://i.fluffy.cc/pFTzf17570QP32LGgDKDvXs8HQPgKNHk.png"
-    },
-    {
-      "handle": "Utinni",
-      "name": "Utinni",
-      "description": "I like to do cell-shaded art and I am looking into doing more shading. I enjoy a lot of mecha animes although I lack the discipline and precision to draw them so I have been having fun with drawing just regular characters. I've been interested in Fate Grand Order characters recently and am working on drawings of Kama and Tamamo right now.",
-      "profilePic": "assets/artists/pfp/utinni.jpg",
-      "commLink": "mailto:utinni.draws@gmail.com",
-      "image1": "https://i.fluffy.cc/Njn7flhWvnt6nmScsnq8BqwrjvJNFZMG.png",
-      "image2": "https://i.fluffy.cc/4J8lDhWwVMpdkVs5lH33B9WZGBw2xKjC.jpg",
-      "image3": "https://i.fluffy.cc/k2G3Mk3dTzwttdkLf9vSX0Jz3dg5JZDK.jpg",
-      "image4": "https://i.fluffy.cc/ZCzGj1gZnqZ0kSbH9hFQH0n60HPhnlpX.jpg"
-    }
+  {
+    "handle": "Redteapanda",
+    "name": "Redteapanda",
+    "description": "Hello, my name's Bernice and I'm a games concept artist! I like drawing whatever I want in my free time, especially red pandas.",
+    "profilePic": "assets/artists/pfp2022/Redteapanda.jpg",
+    "commLink": "https://twitter.com/redteapanda",
+    "image1": "https://i.fluffy.cc/0DLn0kM1hgh4vRWGMRXgqz3cGdRv7B7H.jpg",
+    "image2": "https://i.fluffy.cc/0DLn0kM1hgh4vRWGMRXgqz3cGdRv7B7H.jpg",
+    "image3": "https://i.fluffy.cc/0DLn0kM1hgh4vRWGMRXgqz3cGdRv7B7H.jpg",
+    "image4": "https://i.fluffy.cc/0DLn0kM1hgh4vRWGMRXgqz3cGdRv7B7H.jpg"
+    
+  }, 
+  {
+    "handle": "MoeMeido",
+    "name": "Moe Meido",
+    "description": "Bay Area artist that makes cute things based off Asian pop culture",
+    "profilePic": "assets/artists/pfp2022/MoeMeido.jpg",
+    "commLink": "https://moemeido.square.site/",
+    "image1": "https://i.fluffy.cc/bfRFB8nRwwC0n9BLs36rKPQvXP6p0Pjn.jpg",
+    "image2": "https://i.fluffy.cc/bfRFB8nRwwC0n9BLs36rKPQvXP6p0Pjn.jpg",
+    "image3": "https://i.fluffy.cc/bfRFB8nRwwC0n9BLs36rKPQvXP6p0Pjn.jpg",
+    "image4": "https://i.fluffy.cc/bfRFB8nRwwC0n9BLs36rKPQvXP6p0Pjn.jpg"
+    
+  },
+  {
+    "handle": "princepotatokun",
+    "name": "princepotatokun",
+    "description": "just a dude, just a little guy— sellin his wares",
+    "profilePic": "assets/artists/pfp2022/princepotatokun.png",
+    "commLink": "http://princepotatokyunkun.carrd.co",
+    "image1": "https://i.fluffy.cc/G95lMjrtXWCsCq3Z6xz0J1bpvw5jsXV2.png",
+    "image2": "https://i.fluffy.cc/G95lMjrtXWCsCq3Z6xz0J1bpvw5jsXV2.png",
+    "image3": "https://i.fluffy.cc/G95lMjrtXWCsCq3Z6xz0J1bpvw5jsXV2.png",
+    "image4": "https://i.fluffy.cc/G95lMjrtXWCsCq3Z6xz0J1bpvw5jsXV2.png"
+  },
+  {
+    "handle": "SidneyAnita",
+    "name": "SidneyAnita",
+    "description": "Hi everyone! I love drawing fanart of my favorite shows and making cute characters. My favorite part of attending conventions is talking with attendees about shows or franchises we both enjoy! ",
+    "profilePic": "assets/artists/pfp2022/SidneyAnita.jpeg",
+    "commLink": "https://www.instagram.com/SidneyAnita/",
+    "image1": "https://i.fluffy.cc/WJXbsKVPDKFCPB7fnpvrFKGPbQps5g1Q.jpeg",
+    "image2": "https://i.fluffy.cc/WJXbsKVPDKFCPB7fnpvrFKGPbQps5g1Q.jpeg",
+    "image3": "https://i.fluffy.cc/WJXbsKVPDKFCPB7fnpvrFKGPbQps5g1Q.jpeg",
+    "image4": "https://i.fluffy.cc/WJXbsKVPDKFCPB7fnpvrFKGPbQps5g1Q.jpeg"
+    
+  },
+  {
+    "handle": "MinoMino",
+    "name": "MinoMino",
+    "description": "",
+    "profilePic": "assets/artists/pfp2022/MinoMino.png",
+    "commLink": "http://minomino.art",
+    "image1": "https://i.fluffy.cc/NWTH0W94fJDGZk3PtwKvBtwKJDBPQfxS.png",
+    "image2": "https://i.fluffy.cc/NWTH0W94fJDGZk3PtwKvBtwKJDBPQfxS.png",
+    "image3": "https://i.fluffy.cc/NWTH0W94fJDGZk3PtwKvBtwKJDBPQfxS.png",
+    "image4": "https://i.fluffy.cc/NWTH0W94fJDGZk3PtwKvBtwKJDBPQfxS.png"
+    
+  }
+    
 ]
