@@ -46,13 +46,13 @@
     {
         "handle": "MinoMino",
         "name": "MinoMino",
-        "description": null,
+        "description": "",
         "profilePic": "assets/artists/pfp2022/MinoMino.jpg",
         "commLink": "http://minomino.art",
         "image1": "https://i.fluffy.cc/NpqL9rR8s3Ll1NF2mVfmbsHWs3sVGZr2.png",
         "image2": "https://i.fluffy.cc/ZpfT2czHhWt7zt0mSbZgsmRl3dj04HVv.png",
         "image3": "https://i.fluffy.cc/s8H25rGnVw4DJl5PmwK26SmdBFCSGTc6.jpg",
-        "image4": null
+        "image4": ""
     },
     {
         "handle": "Cloverleafpie",
@@ -112,7 +112,7 @@
     {
         "handle": "Vy Nguyen",
         "name": "Vy Nguyen",
-        "description": null,
+        "description": "",
         "profilePic": "assets/artists/pfp2022/Vy Nguyen.jpg",
         "commLink": "girthybobastraw.myshopify.com",
         "image1": "https://i.fluffy.cc/c6HWCzXd4W5Kz0QckKFd1bL2TmCLx53X.jpeg",
@@ -255,7 +255,7 @@
     {
         "handle": "mousec1ub",
         "name": "mousec1ub",
-        "description": null,
+        "description": "",
         "profilePic": "assets/artists/pfp2022/mousec1ub.jpg",
         "commLink": "mousec1ub.carrd.co",
         "image1": "https://i.fluffy.cc/7mHhP8TzKtF9CZMpPdzLF6VnbVscfKPs.png",
@@ -497,7 +497,7 @@
     {
         "handle": "chapter56",
         "name": "chapter56",
-        "description": null,
+        "description": "",
         "profilePic": "assets/artists/pfp2022/chapter56.jpg",
         "commLink": "https://twitter.com/chapter_56",
         "image1": "https://i.fluffy.cc/2kgJb03JjGNKj733wMb3zNh8NJKPhcQ9.png",
@@ -609,7 +609,7 @@
         "name": "Hw00nie",
         "description": "Hello I'm Hw00nie! I'm a current sophmore studying Cogsci and my favorite animes are Haikyuu, Baccano and Senyuu! I play league every now and then and I'm currently obsessed with Nanami from JJK :)",
         "profilePic": "assets/artists/pfp2022/Hw00nie.jpg",
-        "commLink": null,
+        "commLink": "",
         "image1": "https://i.fluffy.cc/NKzj5TCX16lxHqXvvRsrx6l8fm5TlX3N.png",
         "image2": "https://i.fluffy.cc/LBpjx0F8tjxKZfN6GxfHbF3dV3FnBFgH.png",
         "image3": "https://i.fluffy.cc/FMVFd0NSSfQZfLk7WWTJ34TBC68dw7mn.png",
@@ -618,7 +618,7 @@
     {
         "handle": "voidgearz",
         "name": "voidgearz",
-        "description": null,
+        "description": "",
         "profilePic": "assets/artists/pfp2022/voidgearz.jpg",
         "commLink": "https://www.instagram.com/voidgearz/",
         "image1": "https://i.fluffy.cc/txMk8K0k4Rm1RK1ml9mGzXjwnVgXKCl4.PNG",
