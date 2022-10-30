@@ -5,6 +5,8 @@
     <link href='https://fonts.googleapis.com/css?family=Marvel:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="../assets/style.css" />
     <link rel="icon" type="image/png" href="../assets/Chibi.png"/>
+    <link rel="stylesheet" href="/assets/timetablejs.css">
+    <script src="/assets/timetable.js"></script>
     <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="expires" content="0" />
@@ -78,9 +80,7 @@
     <div class="container">
         <div class="content">
             <div class="header">PROGRAMMING</div>
-                <div class="text">
-                    <img src="../assets/ad schedule.png" style="max-width: 100%; max-height: 100%">
-                </div>
+                <div class="timetable"></div>
                 &nbsp;
                 &nbsp;
                 <!-- <div class="subheader">Panels</div>
@@ -292,6 +292,19 @@
     ga('send', 'pageview');
     </script>
     <script type="text/javascript" src="../scripts/sidebarButton.js"></script>
+    <script>
+        var timetable = new Timetable();
+
+        timetable.setScope(9, 19);
+
+        timetable.addLocations(['Stephens', 'Tilden', 'Tilden Patio', 'Gaming Hall']);
+
+        // timetable.addEvent(<Event name>, <Location>, new Date('2022-11-12T<START TIME>'), new Date('2022-11-12T<END TIME>'));
+        timetable.addEvent('Gekkou', 'Stephens', new Date('2022-11-12T11:00:00'), new Date('2022-11-12T12:00:00'));
+
+        var renderer = new Timetable.Renderer(timetable);
+        renderer.draw('.timetable');
+    </script>
 </body>
 
 </html>
