@@ -131,15 +131,16 @@ function updatePageDots() {
     // for me to implement a dynamic version so
     // here's some spaghet
 
-    var container = document.getElementById('dot-container');
+    var containers = document.getElementsByClassName('dot-container');
 
-    container.innerHTML = '';
+    for (var container of containers) {
+        container.innerHTML = '';
 
-    for (var i = 1; i <= artists.length / MAX_PER_PAGE; i++) {
-        container.appendChild(
-            createDot(i, pageNumber == i)
-        );
+        for (var i = 1; i <= artists.length / MAX_PER_PAGE; i++) {
+            container.appendChild(createDot(i, pageNumber == i));
+        }
     }
+
 }
 
 randomizeArtists().then((data) => {
