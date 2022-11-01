@@ -273,7 +273,7 @@
             </div>
           -->
         </div>
-        <div id="footer">&copy; 2014-2020 Anime Destiny and Cal Animage Alpha. Design by <a href="http://haiyun.tumblr.com/">Haidee Pan</a>. All rights reserved.</div>
+        <div id="footer">&copy; 2014-2022 Anime Destiny and Cal Animage Alpha. </a> All rights reserved.</div>
     </div>
     <script type="text/javascript">
     (function(i, s, o, g, r, a, m) {
@@ -294,14 +294,34 @@
     <script type="text/javascript" src="../scripts/sidebarButton.js"></script>
     <script>
         var timetable = new Timetable();
-
+        // timetable.useTwelveHour();
         timetable.setScope(9, 19);
 
         timetable.addLocations(['Stephens', 'Tilden', 'Tilden Patio', 'Gaming Hall']);
 
         // timetable.addEvent(<Event name>, <Location>, new Date('2022-11-12T<START TIME>'), new Date('2022-11-12T<END TIME>'));
+        // All the Stephens room 
         timetable.addEvent('Gekkou', 'Stephens', new Date('2022-11-12T11:00:00'), new Date('2022-11-12T12:00:00'));
+        timetable.addEvent('Skylar', 'Stephens', new Date('2022-11-12T12:00:00'), new Date('2022-11-12T13:00:00'));
+        timetable.addEvent('Drawcademy', 'Stephens', new Date('2022-11-12T11:00:00'), new Date('2022-11-12T12:00:00'));
+        timetable.addEvent('CWF', 'Stephens', new Date('2022-11-12T15:00:00'), new Date('2022-11-12T16:00:00'));
+        timetable.addEvent('Karaoke', 'Stephens', new Date('2022-11-12T16:30:00'), new Date('2022-11-12T17:30:00'));
+        timetable.addEvent('Jeopardy', 'Stephens', new Date('2022-11-12T18:00:00'), new Date('2022-11-12T19:00:00'));
 
+        // All the Gaming Hall room 
+        timetable.addEvent('DDR', 'Gaming Hall', new Date('2022-11-12T12:00:00'), new Date('2022-11-12T15:00:00'));
+        timetable.addEvent('Smash', 'Gaming Hall', new Date('2022-11-12T15:00:00'), new Date('2022-11-12T19:00:00'));
+
+        // All the Tilden room
+        timetable.addEvent('Genshin', 'Tilden', new Date('2022-11-12T09:00:00'), new Date('2022-11-12T11:00:00'));
+        timetable.addEvent('NiCE', 'Tilden', new Date('2022-11-12T12:00:00'), new Date('2022-11-12T12:30:00'));
+        timetable.addEvent('Naisu Ami', 'Tilden', new Date('2022-11-12T13:00:00'), new Date('2022-11-12T14:00:00'));
+        timetable.addEvent('Intermission Orchestra', 'Tilden', new Date('2022-11-12T14:30:00'), new Date('2022-11-12T15:30:00'));
+        timetable.addEvent('AniCLover', 'Tilden', new Date('2022-11-12T16:00:00'), new Date('2022-11-12T19:00:00'));
+
+        // All the Tilden Patio room 
+        timetable.addEvent('Cosplay Gathering', 'Tilden Patio', new Date('2022-11-12T11:00:00'), new Date('2022-11-12T13:00:00'));
+        
         var renderer = new Timetable.Renderer(timetable);
         renderer.draw('.timetable');
     </script>
