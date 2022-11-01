@@ -42,9 +42,9 @@
                 <div class="navbar-content">
                     <a href="../artistalley/">Artist Alley</a>Artist Alley
                 </div>
-                <div class="navbar-content">
+                <!-- <div class="navbar-content">
                     <a href="../sponsors/">Sponsors</a>Sponsors
-                </div>
+                </div> -->
                 <div class="navbar-content">
                     <a href="../contact/">Contact</a>Contact
                 </div>
@@ -65,7 +65,7 @@
         <a href="javascript:void(0)" class="closebtn" style="color:white" onclick="closeNav()">&times;</a>
         <a href="./">Programming</a>
         <a href="../artistalley/">Artist Alley</a>
-        <a href="../sponsors/">Sponsors</a>
+        <!-- <a href="../sponsors/">Sponsors</a> -->
         <a href="../contact/">Contact</a>
     </div>
 
@@ -296,14 +296,24 @@
         var timetable = new Timetable();
         // timetable.useTwelveHour();
         timetable.setScope(9, 19);
-
+        var options = {
+            url: '', // makes the event clickable
+            class: '', // additional css class
+            data: { // each property will be added to the data-* attributes of the DOM node for this event
+                // id: 4,
+                // ticketType: 'VIP'
+            },
+            onClick: function(event, timetable, clickEvent) {
+                
+            } // custom click handler, which is passed the event object and full timetable as context  
+        };
         timetable.addLocations(['Stephens', 'Tilden', 'Tilden Patio', 'Gaming Hall']);
 
         // timetable.addEvent(<Event name>, <Location>, new Date('2022-11-12T<START TIME>'), new Date('2022-11-12T<END TIME>'));
         // All the Stephens room 
         timetable.addEvent('Gekkou', 'Stephens', new Date('2022-11-12T11:00:00'), new Date('2022-11-12T12:00:00'));
         timetable.addEvent('Skylar', 'Stephens', new Date('2022-11-12T12:00:00'), new Date('2022-11-12T13:00:00'));
-        timetable.addEvent('Drawcademy', 'Stephens', new Date('2022-11-12T11:00:00'), new Date('2022-11-12T12:00:00'));
+        timetable.addEvent('Drawcademy', 'Stephens', new Date('2022-11-12T13:00:00'), new Date('2022-11-12T14:30:00'));
         timetable.addEvent('CWF', 'Stephens', new Date('2022-11-12T15:00:00'), new Date('2022-11-12T16:00:00'));
         timetable.addEvent('Karaoke', 'Stephens', new Date('2022-11-12T16:30:00'), new Date('2022-11-12T17:30:00'));
         timetable.addEvent('Jeopardy', 'Stephens', new Date('2022-11-12T18:00:00'), new Date('2022-11-12T19:00:00'));
