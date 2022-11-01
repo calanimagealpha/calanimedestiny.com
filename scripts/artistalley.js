@@ -96,6 +96,18 @@ function shuffleArray(array) {
     return array
 }
 
+function createDot(page, selected) {
+    var a = document.createElement('a');
+    a.href = `javascript:setPage(${page})`;
+
+    var span = document.createElement('span');
+    span.classList.add(selected ? 'dotf' : 'dote');
+
+    a.appendChild(span);
+
+    return a;
+}
+
 var loaded = false;
 var artists = [];
 var pageNumber = 1;
@@ -119,33 +131,16 @@ function updatePageDots() {
     // for me to implement a dynamic version so
     // here's some spaghet
 
-    document.querySelectorAll(".pdot-1").forEach((el) => {
-        if (pageNumber == 1) {
-            el.classList.remove("dote")
-            el.classList.add("dotf")
-        } else {
-            el.classList.remove("dotf")
-            el.classList.add("dote")
+    var containers = document.getElementsByClassName('dot-container');
+
+    for (var container of containers) {
+        container.innerHTML = '';
+
+        for (var i = 1; i <= artists.length / MAX_PER_PAGE; i++) {
+            container.appendChild(createDot(i, pageNumber == i));
         }
-    });
-    document.querySelectorAll(".pdot-2").forEach((el) => {
-        if (pageNumber == 2) {
-            el.classList.remove("dote")
-            el.classList.add("dotf")
-        } else {
-            el.classList.remove("dotf")
-            el.classList.add("dote")
-        }
-    });
-    document.querySelectorAll(".pdot-3").forEach((el) => {
-        if (pageNumber == 3) {
-            el.classList.remove("dote")
-            el.classList.add("dotf")
-        } else {
-            el.classList.remove("dotf")
-            el.classList.add("dote")
-        }
-    });
+    }
+
 }
 
 randomizeArtists().then((data) => {
