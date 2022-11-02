@@ -65,7 +65,7 @@
                     <a href="../contact/">Contact</a>Contact
                 </div>
                 <div class="navbar-logo">
-                    <a href="https://discord.gg/MVXMpwDbSC"><img style="max-width: 36px"
+                    <a href="https://discord.com/invite/Xp4MUjG"><img style="max-width: 36px"
                             src="../assets/discord.png"></a>
                 </div>
                 <div class="navbar-logo" style="padding-top:12px">
@@ -141,7 +141,7 @@
                 dialog.showModal();
             } // custom click handler, which is passed the event object and full timetable as context  
         };
-        timetable.addLocations(['Stephens', 'Tilden', 'Tilden Patio', 'Gaming Hall']);
+        timetable.addLocations(['Stephens', 'Tilden', 'Tilden Patio',  'Pauley Ballroom','In Gaming Hall:', 'XR at Berkeley', 'DDR' ,'Tournements']);
 
         var events = [
             // All the Stephens room 
@@ -158,16 +158,16 @@
                 location: 'Stephens',
                 start: new Date('2022-11-12T12:00:00'),
                 end: new Date('2022-11-12T13:00:00'),
-                link: '',
-                description: 'Skylar :3'
+                link: 'https://www.songskye.com/',
+                description: 'Hello!! I’m Skylar, a freelance illustrator, and founder of Digital Illustration and Concept Art at Berkeley. You may have seen some of my work for Konshuu! I’m excited to be hosting a workshop panel on drawing anime/stylized characters for Anime Destiny, and to be a part of the artist alley :)'
             },
             {
                 name: 'Drawcademy',
                 location: 'Stephens',
                 start: new Date('2022-11-12T13:00:00'),
                 end: new Date('2022-11-12T14:30:00'),
-                link: '',
-                description: ''
+                link: 'https://www.drawcademy.net/',
+                description: 'Step-by-step, Drawcademy instructor Nate, will guide you through simple exercises where you’ll learn the fundamentals of drawing, light & shadow, & character design. Take home a finished creative anime illustration, and plenty of newfound art skills. Bring a sketchbook, a clipboard to hold it, and some graphite pencils - that’s all you’ll need for this follow-along course.'
             },
             {
                 name: 'CWF',
@@ -175,7 +175,7 @@
                 start: new Date('2022-11-12T15:00:00'),
                 end: new Date('2022-11-12T16:00:00'),
                 link: '',
-                description: ''
+                description: 'Please welcome Cosplay Wrestling Federation back to Anime Destiny 2022! Since the last show in 2019, CWF is back with a banger you don’t want to miss! Get school’ed in the education of hard knocks and personalities at their panel - 3pm to 4pm in Stephens! Don’t miss out!'
             },
             {
                 name: 'Karaoke',
@@ -183,15 +183,15 @@
                 start: new Date('2022-11-12T16:00:00'),
                 end: new Date('2022-11-12T17:00:00'),
                 link: '',
-                description: ''
+                description: 'Come and sing along to all the OPs and EDs that you’ve heard over and over again, and watch as other attendees also take the stage! We will be taking song requests, so if you want to be on stage at Anime Destiny singing all the words to your favorite songs, make sure to drop by our karaoke event!'
             },
             {
                 name: 'Waifu Wars',
                 location: 'Stephens',
                 start: new Date('2022-11-12T17:00:00'),
                 end: new Date('2022-11-12T18:00:00'),
-                link: '',
-                description: ''
+                link: 'https://www.youtube.com/c/CalAnimageAlpha?app=desktop',
+                description: 'This is an event where we put everyone’s favorite waifus, husbandos, and non-binary spouses to the test! You can submit your favorite characters on our Discord server, and at Anime Destiny we will put them into a Hunger Games simulator! You can watch the bloodshed at the Waifu Wars panel, but it will also be streamed on our YouTube channel.'
             },
             {
                 name: 'Jeopardy',
@@ -199,25 +199,41 @@
                 start: new Date('2022-11-12T18:00:00'),
                 end: new Date('2022-11-12T19:00:00'),
                 link: '',
-                description: ''
+                description: 'A regular tradition that CAA holds at Anime Destiny - test out your anime knowledge in a game of Jeopardy! Bring your friends along if you want to work together with them on these short trivia questions, and do your best to win prizes such as free Anime Destiny merchandise!'
             },
-
+            // All in Pauley Ballroom
+            {
+                name: 'Artist Alley / Dealers hall',
+                location: 'Pauley Ballroom',
+                start: new Date('2022-11-12T09:00:00'),
+                end: new Date('2022-11-12T19:00:00'),
+                link: '../artistalley/',
+                description: 'Browse our Artist Alley for quality fanmade products from our local artists! Come for keychains and prints of your favorite characters!'
+            },
             // All the Gaming Hall room 
             {
+                name: 'XR at Berkeley ',
+                location: 'XR at Berkeley',
+                start: new Date('2022-11-12T09:00:00'),
+                end: new Date('2022-11-12T19:00:00'),
+                link: 'https://xr.berkeley.edu/',
+                description: 'We are Extended Reality at Berkeley, a club that’s passionate about virtual reality and augmented reality. In addition to our semesterly projects, we also run a competitive VR team, which are the current season champions for Beat Saber in the Collegiate VR League. Feel free to talk to any of our club members about participating in competitive VR, or about VR/AR research!'
+            },
+            {
                 name: 'DDR',
-                location: 'Gaming Hall',
-                start: new Date('2022-11-12T12:00:00'),
-                end: new Date('2022-11-12T15:00:00'),
-                link: '',
+                location: 'DDR',
+                start: new Date('2022-11-12T09:00:00'),
+                end: new Date('2022-11-12T19:00:00'),
+                link: 'https://dancegames.berkeley.edu/',
                 description: ''
             },
             {
                 name: 'Smash',
-                location: 'Gaming Hall',
+                location: 'Tournements',
                 start: new Date('2022-11-12T15:00:00'),
                 end: new Date('2022-11-12T19:00:00'),
-                link: '',
-                description: ''
+                link: 'https://smash.berkeley.edu/',
+                description: 'We’re Smash at Berkeley, a group that provides a place to learn, grow, and inspire a community of smashers here at UC Berkeley. Our mission is to bring together everyone with a love for Super Smash Brothers and create a long-lasting Smash community. We will be running a Smash tournament at Anime Destiny 2022 from 3pm to 7pm! If you’re interested in participating, click here for more details.'
             },
 
             // All the Tilden room
@@ -227,39 +243,39 @@
                 start: new Date('2022-11-12T09:00:00'),
                 end: new Date('2022-11-12T11:00:00'),
                 link: '',
-                description: ''
+                description: 'We’ll be selling art from artists of the Genshin at Berkeley community that won our summer art contest. Also, we’ll be hosting an event from 9am to 11am, which will include many mini games intended for high audience participation and interaction.'
             },
             {
                 name: 'NiCE',
                 location: 'Tilden',
                 start: new Date('2022-11-12T12:00:00'),
                 end: new Date('2022-11-12T12:30:00'),
-                link: '',
-                description: ''
+                link: 'https://niceacappella.berkeley.edu/',
+                description: 'Hi! We’re the Nikkei Choral Ensemble, an acapella group that performs songs in Japanese and English. Each semester, we aim to put on a public showcase of various pieces we work on as a group. Our entirely member-selected and arranged repertoire consists of a wide variety of pieces in both Japanese and English, ranging from western pop and indie songs to songs from anime and games, Japanese classics, and more. Our repertoire changes every semester as a result of members’ dedication to arranging and performing new songs. For more information, please contact us at nikkeichoralensemble@gmail.com.'
             },
             {
                 name: 'Naisu Ami',
                 location: 'Tilden',
                 start: new Date('2022-11-12T13:00:00'),
                 end: new Date('2022-11-12T14:00:00'),
-                link: '',
-                description: ''
+                link: 'https://linktr.ee/naisuami',
+                description: '“Vaporwave space-frontier grunge-y fanfare”. “Prince-like songwriting and structure”. “Like riding a bike, falling into a lake, and coming back out.” These have all been used to describe Naisu Ami’s music. With a mix of media soundscapes, languages, and the power of friendship, they will put on a show fit just for Anime Destiny!'
             },
             {
                 name: 'Intermission Orchestra',
                 location: 'Tilden',
                 start: new Date('2022-11-12T14:30:00'),
                 end: new Date('2022-11-12T15:30:00'),
-                link: '',
-                description: ''
+                link: 'https://linktr.ee/tioatcal',
+                description: 'We are The Intermission Orchestra at Berkeley, a student-run organization that plays music from video games, anime, and films! Here at Anime Destiny, we will be performing some songs as a reduced ensemble. Please check out our website for more information, and our fall concert on (tentatively) December 7th!'
             },
             {
                 name: 'AniCLover',
                 location: 'Tilden',
                 start: new Date('2022-11-12T16:00:00'),
                 end: new Date('2022-11-12T19:00:00'),
-                link: '',
-                description: ''
+                link: 'https://aniclover.com/',
+                description: 'Bay Area DJ collective, AniCLover, will be hosting an anikura party with local DJs playing exciting anison originals and remixes! Make sure to tune in at the party 4pm to 7pm at Anime Destiny 2022!'
             },
 
             // All the Tilden Patio room 
@@ -269,7 +285,7 @@
                 start: new Date('2022-11-12T11:00:00'),
                 end: new Date('2022-11-12T13:00:00'),
                 link: '',
-                description: ''
+                description: 'Cosplay as your favorite anime character at Anime Destiny, and come to our Cosplay Gathering to meet up with other cosplayers! We will have photographers and videographers there to fulfill your cosplay photoshoot dreams, as you socialize and connect with others who share the same cosplaying passion as you.'
             }
         ];
 
@@ -283,12 +299,32 @@
                     var name = event.name;
                     var link = event.options.data.link;
                     var description = event.options.data.description;
-
-                    dialog.innerHTML = `
-                        <a href=${link}><h1>${name}</h1></a>
-                        ${description}
-                    `;
-
+                    //This part is hardcoded for Smash at berkeley form. Sorry for not making it dynamic//
+                    if (name == 'Smash') {
+                        dialog.innerHTML = `
+                            <a href=${link}><h1>${name}</h1></a>
+                            ${description}
+                            <a href=${'https://www.start.gg/tournament/anime-destiny-2022/details'}><h1>${'Here'}</h1></a>
+                        `; //Hard code ends here//
+                    }else if(name == 'Waifu Wars') { // This is hard coded for Waifu Wars
+                        dialog.innerHTML = `
+                            <a href=${link}><h1>${name}</h1></a>
+                            ${description}
+                            <a href=${'https://discord.com/invite/Xp4MUjG'}><h1>${'Discord'}</h1></a>
+                        `; // End Hard code
+                    }else if(link == ''){ 
+                        dialog.innerHTML = `
+                        <font size="+3"><b>${name}</b></font> // This is for the name of the Event to be bolded and Bigger
+                            <br>
+                            <br>
+                            ${description}
+                        `;
+                    }else{
+                        dialog.innerHTML = `
+                            <a href=${link}><h1>${name}</h1></a>
+                            ${description}
+                        `;
+                    }
                     dialog.showModal();
                 }
             };
