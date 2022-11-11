@@ -233,9 +233,9 @@
     {
         "handle": "lov lyse",
         "name": "lov lyse",
-        "description": "",
+        "description": "Hello! I'm Elyse and I'm a hobby artist who enjoys drawing fanart and OC's. I do both traditional and digital illustrations. I'm always trying to find ways to experiment with media, colors, and compositions, as well as incorporate my interests such as fashion when I'm doing illustrations. My favorite series right now are Houseki no Kuni, JJK, CSM, and Dorohedoro! I hope you enjoy my art <3!",
         "profilePic": "assets/artists/pfp2022/lov_lyse.png",
-        "commLink": "",
+        "commLink": "https://www.instagram.com/lov_lyse/?hl=en",
         "image1": "https://i.fluffy.cc/QJRxXD79whP1Ll1Gn3Cf5vwP01WbVF3L.png",
         "image2": "https://i.fluffy.cc/9vhfBsDxq9Tz3NLzkwsMjWBRhZLs6p3H.png",
         "image3": "https://i.fluffy.cc/0Ljwx5zrSHjz225C0cqDvJBXmVtpGf5s.png",
@@ -379,12 +379,12 @@
         "handle": "bluewoole",
         "name": "bluewoole",
         "description": "Hello! I go by blooue and I'll be debuting my Berkeley Impact series at Anime Destiny 🙂 I also have merch for fate, bandori, league and pokemon. I'll be running some social media campaigns, so keep an eye out for freebies!! (and please come talk to me if you're a fellow meltryllis fan uwu)",
-        "profilePic": "assets/artists/pfp2022/bluewoole.jpg",
+        "profilePic": "assets/artists/pfp2022/bluewoole.png",
         "commLink": "https://linktr.ee/bluewoole",
-        "image1": "https://i.fluffy.cc/1fdMW8sRg2qwCtC0gGt1R8VK6NLSxgQ0.png",
-        "image2": "https://i.fluffy.cc/1fdMW8sRg2qwCtC0gGt1R8VK6NLSxgQ0.png",
-        "image3": "https://i.fluffy.cc/1fdMW8sRg2qwCtC0gGt1R8VK6NLSxgQ0.png",
-        "image4": "https://i.fluffy.cc/1fdMW8sRg2qwCtC0gGt1R8VK6NLSxgQ0.png"
+        "image1": "https://i.fluffy.cc/DZx8CZNPwtRvc1N9wknGPVHRLsqV9NfC.png",
+        "image2": "https://i.fluffy.cc/8df3s6PLsnxHZfQ3VkhNBz5sJzmLhJLv.png",
+        "image3": "https://i.fluffy.cc/Mpdr9S9jz9Pptlj37Lhq0mxphCk4LB3X.jpg",
+        "image4": "https://i.fluffy.cc/C2Z06R2dbhT0VzKP2vQr0bPJ9pt2Kc8C.png"
     },
     {
         "handle": "Spellweaver Art",
@@ -705,6 +705,54 @@
         "image3": "https://i.fluffy.cc/zM52mt2JJqvPsR3c3tgM448S8g8p3cwP.png",
         "image4": "https://i.fluffy.cc/6SsgJLvTVkbf3r1QgHRx4F4rLlN90Hfq.jpg"
     },
+    {
+      "handle": "BakaDreams",
+      "name": "BakaDreams",
+      "description": "Hi! My name is Amy, and I am the artist behind BakaDreams. I am based in the Bay Area. I started BakaDreams as a creative outlet/passion project! I like to draw cute stuff and I hope they can make you smile :)",
+      "profilePic": "assets/artists/pfp2022/BakaDreamsLogo.jpg",
+      "commLink": "https://www.instagram.com/bakadreams/",
+      "image1": "https://i.fluffy.cc/HQc7vkSRL3hM2QcLHT62rzWTsCkgS3jS.png",
+      "image2": "https://i.fluffy.cc/Vx9fKFfXK0kPTr4xpnRZJxf4MdW5hkrS.png",
+      "image3": "https://i.fluffy.cc/GvcJNbRkXFk8N32zwHVSp683z3x6SZwk.png",
+      "image4": "https://i.fluffy.cc/FLxsMT062TR8PCnXVlTHrqBlcklJ1rHJ.jpg"
+      
+    },
+    {
+        "handle": "SneakyBunnies",
+        "name": "SneakyBunnies",
+        "description": "",
+        "profilePic": "assets/artists/pfp2022/SneakyBunnies.jpg",
+        "commLink": "",
+        "image1": "https://i.fluffy.cc/S1rwL4fzbkB00MJTQGKd71qCVg3dcnfl.jpg",
+        "image2": "https://i.fluffy.cc/dRVHLTFBXFRtmlhkVz1RLnVx4FLmB39C.jpg",
+        "image3": "https://i.fluffy.cc/vsp8ZLqxhvfP5GJWnkBxp35Qj9kS4cdH.jpg",
+        "image4": "https://i.fluffy.cc/lpZQhhp0cPs5pzkLpNtqrMkg24kWtnv3.jpg"
+        
+      },
+      {
+        "handle": "RoseIvoryStudio",
+        "name": "Rose Ivory Studio",
+        "description": "Handcrafted Jewelry & Scrunchies",
+        "profilePic": "assets/artists/pfp2022/RoseIvoryStudio.png",
+        "commLink": "http://www.roseivorystudio.etsy.com",
+        "image1": "https://i.fluffy.cc/wMgKrpMk6hHfJJkQWlfHHJX9z41CzWn4.png",
+        "image2": "https://i.fluffy.cc/wMgKrpMk6hHfJJkQWlfHHJX9z41CzWn4.png",
+        "image3": "https://i.fluffy.cc/wMgKrpMk6hHfJJkQWlfHHJX9z41CzWn4.png",
+        "image4": "https://i.fluffy.cc/wMgKrpMk6hHfJJkQWlfHHJX9z41CzWn4.png"
+        
+      },
+      {
+        "handle": "Chokora'sGarageSale",
+        "name": "Chokora's Garage Sale",
+        "description": "I am a long time anime and manga collector looking to find new homes for some of my collections. Buy multiple items to save!",
+        "profilePic": "assets/artists/pfp2022/Chokora'sGarageSale.jpg",
+        "commLink": "https://animejpopmanga.square.site/",
+        "image1": "https://i.fluffy.cc/83WW1vbQqDQP3XQDRXDZk2HwxW4xRHhq.JPG",
+        "image2": "https://i.fluffy.cc/83WW1vbQqDQP3XQDRXDZk2HwxW4xRHhq.JPG",
+        "image3": "https://i.fluffy.cc/83WW1vbQqDQP3XQDRXDZk2HwxW4xRHhq.JPG",
+        "image4": "https://i.fluffy.cc/83WW1vbQqDQP3XQDRXDZk2HwxW4xRHhq.JPG"
+        
+      },
     {
         "handle": "03RIN",
         "name": "03RIN",
